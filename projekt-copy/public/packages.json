@@ -1,0 +1,24 @@
+{
+  "packages": [
+    {
+      "id": "libc6",
+      "name": "GNU C Library: shared libraries"
+    },
+    {
+      "id": "bash",
+      "name": "GNU Bourne Again SHell"
+    },
+    {
+      "id": "coreutils",
+      "name": "GNU core utilities"
+    },
+    {
+      "id": "systemd",
+      "name": "system and service manager"
+    },
+    {
+      "id": "python3",
+      "name": "Python 3 interpreter (default)"
+    }
+  ]
+}
