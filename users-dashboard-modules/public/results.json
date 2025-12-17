@@ -1,0 +1,1757 @@
+[
+  {
+    "cve_id": "CVE-2013-7445",
+    "base_score": 7.8,
+    "severity": "N/A",
+    "vector": "AV:N/AC:L/Au:N/C:N/I:N/A:C",
+    "exploitability": 10.0,
+    "impact": 6.9,
+    "score_version": "CVSSv2"
+  },
+  {
+    "cve_id": "CVE-2017-7475",
+    "base_score": 5.5,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+    "exploitability": 1.8,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2018-12928",
+    "base_score": 4.9,
+    "severity": "N/A",
+    "vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C",
+    "exploitability": 3.9,
+    "impact": 6.9,
+    "score_version": "CVSSv2"
+  },
+  {
+    "cve_id": "CVE-2019-19449",
+    "base_score": 7.8,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "exploitability": 1.8,
+    "impact": 5.9,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2019-19814",
+    "base_score": 7.8,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "exploitability": 1.8,
+    "impact": 5.9,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2019-20794",
+    "base_score": 4.7,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H",
+    "exploitability": 1.0,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2019-6988",
+    "base_score": 4.3,
+    "severity": "N/A",
+    "vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P",
+    "exploitability": 8.6,
+    "impact": 2.9,
+    "score_version": "CVSSv2"
+  },
+  {
+    "cve_id": "CVE-2019-9543",
+    "base_score": 6.8,
+    "severity": "N/A",
+    "vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+    "exploitability": 8.6,
+    "impact": 6.4,
+    "score_version": "CVSSv2"
+  },
+  {
+    "cve_id": "CVE-2019-9545",
+    "base_score": 6.8,
+    "severity": "N/A",
+    "vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+    "exploitability": 8.6,
+    "impact": 6.4,
+    "score_version": "CVSSv2"
+  },
+  {
+    "cve_id": "CVE-2020-14304",
+    "base_score": 4.4,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+    "exploitability": 0.8,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2020-15999",
+    "base_score": 9.6,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+    "exploitability": 2.8,
+    "impact": 6.0,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2020-16044",
+    "base_score": 8.8,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "exploitability": 2.8,
+    "impact": 5.9,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2020-24027",
+    "base_score": 9.8,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "exploitability": 3.9,
+    "impact": 5.9,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2020-27748",
+    "base_score": 6.5,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+    "exploitability": 2.8,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2020-36694",
+    "base_score": 6.7,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+    "exploitability": 0.8,
+    "impact": 5.9,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2021-28899",
+    "base_score": 7.5,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "exploitability": 3.9,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2021-31879",
+    "base_score": 6.1,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+    "exploitability": 2.8,
+    "impact": 2.7,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2021-38380",
+    "base_score": 7.5,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "exploitability": 3.9,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2021-38381",
+    "base_score": 6.5,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+    "exploitability": 2.8,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2021-38382",
+    "base_score": 6.5,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+    "exploitability": 2.8,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2021-3847",
+    "base_score": 7.8,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "exploitability": 1.8,
+    "impact": 5.9,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2021-3864",
+    "base_score": 7.0,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "exploitability": 1.0,
+    "impact": 5.9,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2021-39282",
+    "base_score": 7.5,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "exploitability": 3.9,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2021-39283",
+    "base_score": 5.5,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+    "exploitability": 1.8,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2021-41396",
+    "base_score": 7.5,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "exploitability": 3.9,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2022-4055",
+    "base_score": 7.4,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:H/A:N",
+    "exploitability": 2.8,
+    "impact": 4.0,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2023-31082",
+    "base_score": 5.5,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+    "exploitability": 1.8,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2023-3397",
+    "base_score": 7.0,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "exploitability": 1.0,
+    "impact": 5.9,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2023-37117",
+    "base_score": 9.8,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "exploitability": 3.9,
+    "impact": 5.9,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2023-37454",
+    "base_score": 5.5,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+    "exploitability": 1.8,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2023-39327",
+    "base_score": 4.3,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+    "exploitability": 2.8,
+    "impact": 1.4,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2023-39328",
+    "base_score": 5.5,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+    "exploitability": 1.8,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2023-39329",
+    "base_score": 6.5,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+    "exploitability": 2.8,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2023-39810",
+    "base_score": 7.8,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "exploitability": 1.8,
+    "impact": 5.9,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2023-4010",
+    "base_score": 4.6,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "exploitability": 0.9,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2023-42366",
+    "base_score": 5.5,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+    "exploitability": 1.8,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2023-44431",
+    "base_score": 8.0,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "exploitability": 2.1,
+    "impact": 5.9,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2023-51580",
+    "base_score": 5.7,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+    "exploitability": 2.1,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2023-51589",
+    "base_score": 5.7,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+    "exploitability": 2.1,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2023-51592",
+    "base_score": 5.7,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+    "exploitability": 2.1,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2023-51594",
+    "base_score": 5.7,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+    "exploitability": 2.1,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2023-5574",
+    "base_score": 7.0,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "exploitability": 1.0,
+    "impact": 5.9,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2023-6240",
+    "base_score": 6.5,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:N",
+    "exploitability": 2.2,
+    "impact": 4.2,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2024-13978",
+    "base_score": 2.0,
+    "severity": "LOW",
+    "vector": "CVSS:4.0/AV:L/AC:H/AT:N/PR:L/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+    "exploitability": "N/A",
+    "impact": "N/A",
+    "score_version": "CVSSv4.0"
+  },
+  {
+    "cve_id": "CVE-2024-21803",
+    "base_score": 3.5,
+    "severity": "LOW",
+    "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:N/I:N/A:L",
+    "exploitability": 1.8,
+    "impact": 1.4,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2024-2193",
+    "base_score": 5.7,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:N",
+    "exploitability": 0.5,
+    "impact": 5.2,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2024-24864",
+    "base_score": 5.3,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:N/A:H",
+    "exploitability": 0.8,
+    "impact": 4.0,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2024-38949",
+    "base_score": 6.5,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+    "exploitability": 2.8,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2024-38950",
+    "base_score": 6.5,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+    "exploitability": 2.8,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2024-47081",
+    "base_score": 5.3,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N",
+    "exploitability": 1.6,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2024-47850",
+    "base_score": 7.5,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "exploitability": 3.9,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2024-47866",
+    "base_score": 7.5,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "exploitability": 3.9,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2024-50613",
+    "base_score": 6.5,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+    "exploitability": 2.8,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2024-52615",
+    "base_score": 5.3,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+    "exploitability": 3.9,
+    "impact": 1.4,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2024-52616",
+    "base_score": 5.3,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+    "exploitability": 3.9,
+    "impact": 1.4,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2024-56433",
+    "base_score": 3.6,
+    "severity": "LOW",
+    "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N",
+    "exploitability": 1.0,
+    "impact": 2.5,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2024-58251",
+    "base_score": 2.5,
+    "severity": "LOW",
+    "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L",
+    "exploitability": 1.0,
+    "impact": 1.4,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2024-7254",
+    "base_score": 8.7,
+    "severity": "HIGH",
+    "vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+    "exploitability": "N/A",
+    "impact": "N/A",
+    "score_version": "CVSSv4.0"
+  },
+  {
+    "cve_id": "CVE-2024-7883",
+    "base_score": 3.7,
+    "severity": "LOW",
+    "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+    "exploitability": 2.2,
+    "impact": 1.4,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-10158",
+    "base_score": 4.3,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+    "exploitability": 2.8,
+    "impact": 1.4,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-10230",
+    "base_score": 10.0,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+    "exploitability": 3.9,
+    "impact": 6.0,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-10527",
+    "base_score": 7.1,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:L",
+    "exploitability": 2.8,
+    "impact": 3.7,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-10528",
+    "base_score": 7.3,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+    "exploitability": 3.9,
+    "impact": 3.4,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-10529",
+    "base_score": 6.5,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+    "exploitability": 3.9,
+    "impact": 2.5,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-10531",
+    "base_score": 5.4,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
+    "exploitability": 2.8,
+    "impact": 2.5,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-10532",
+    "base_score": 6.5,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+    "exploitability": 3.9,
+    "impact": 2.5,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-10533",
+    "base_score": 8.8,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "exploitability": 2.8,
+    "impact": 5.9,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-10534",
+    "base_score": 8.1,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+    "exploitability": 2.8,
+    "impact": 5.2,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-10536",
+    "base_score": 6.2,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "exploitability": 2.5,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-10537",
+    "base_score": 8.8,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "exploitability": 2.8,
+    "impact": 5.9,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-10729",
+    "base_score": 9.4,
+    "severity": "CRITICAL",
+    "vector": "CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:P/AU:X/R:X/V:X/RE:H/U:Red",
+    "exploitability": "N/A",
+    "impact": "N/A",
+    "score_version": "CVSSv4.0"
+  },
+  {
+    "cve_id": "CVE-2025-10911",
+    "base_score": 5.5,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+    "exploitability": 1.8,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-11001",
+    "base_score": 7.8,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "exploitability": 1.8,
+    "impact": 5.9,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-11021",
+    "base_score": 7.5,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "exploitability": 3.9,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-11152",
+    "base_score": 8.6,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:L",
+    "exploitability": 3.9,
+    "impact": 4.7,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-11153",
+    "base_score": 7.5,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+    "exploitability": 3.9,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-11708",
+    "base_score": 9.8,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "exploitability": 3.9,
+    "impact": 5.9,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-11709",
+    "base_score": 9.8,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "exploitability": 3.9,
+    "impact": 5.9,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-11710",
+    "base_score": 9.8,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "exploitability": 3.9,
+    "impact": 5.9,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-11711",
+    "base_score": 6.5,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+    "exploitability": 2.8,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-11712",
+    "base_score": 6.1,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+    "exploitability": 2.8,
+    "impact": 2.7,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-11714",
+    "base_score": 8.8,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "exploitability": 2.8,
+    "impact": 5.9,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-11715",
+    "base_score": 8.8,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "exploitability": 2.8,
+    "impact": 5.9,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-11718",
+    "base_score": 6.5,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+    "exploitability": 2.8,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-11721",
+    "base_score": 9.8,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "exploitability": 3.9,
+    "impact": 5.9,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-11731",
+    "base_score": 3.1,
+    "severity": "LOW",
+    "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L",
+    "exploitability": 1.6,
+    "impact": 1.4,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-12084",
+    "base_score": 6.3,
+    "severity": "MEDIUM",
+    "vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+    "exploitability": "N/A",
+    "impact": "N/A",
+    "score_version": "CVSSv4.0"
+  },
+  {
+    "cve_id": "CVE-2025-12105",
+    "base_score": 7.5,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "exploitability": 3.9,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-12380",
+    "base_score": 9.8,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "exploitability": 3.9,
+    "impact": 5.9,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-12385",
+    "base_score": 8.7,
+    "severity": "HIGH",
+    "vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+    "exploitability": "N/A",
+    "impact": "N/A",
+    "score_version": "CVSSv4.0"
+  },
+  {
+    "cve_id": "CVE-2025-13012",
+    "base_score": 7.5,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "exploitability": 1.6,
+    "impact": 5.9,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-13013",
+    "base_score": 6.1,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+    "exploitability": 2.8,
+    "impact": 2.7,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-13014",
+    "base_score": 8.8,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "exploitability": 2.8,
+    "impact": 5.9,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-13015",
+    "base_score": 3.4,
+    "severity": "LOW",
+    "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:N/A:N",
+    "exploitability": 1.6,
+    "impact": 1.4,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-13016",
+    "base_score": 7.5,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "exploitability": 1.6,
+    "impact": 5.9,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-13017",
+    "base_score": 8.1,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+    "exploitability": 2.8,
+    "impact": 5.2,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-13018",
+    "base_score": 8.1,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+    "exploitability": 2.8,
+    "impact": 5.2,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-13019",
+    "base_score": 8.1,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+    "exploitability": 2.8,
+    "impact": 5.2,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-13020",
+    "base_score": 8.8,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "exploitability": 2.8,
+    "impact": 5.9,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-13021",
+    "base_score": 9.8,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "exploitability": 3.9,
+    "impact": 5.9,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-13022",
+    "base_score": 9.8,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "exploitability": 3.9,
+    "impact": 5.9,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-13023",
+    "base_score": 9.8,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "exploitability": 3.9,
+    "impact": 5.9,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-13024",
+    "base_score": 9.8,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "exploitability": 3.9,
+    "impact": 5.9,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-13025",
+    "base_score": 7.5,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+    "exploitability": 3.9,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-13026",
+    "base_score": 9.8,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "exploitability": 3.9,
+    "impact": 5.9,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-13027",
+    "base_score": 8.1,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "exploitability": 2.2,
+    "impact": 5.9,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-13601",
+    "base_score": 7.7,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H",
+    "exploitability": 2.5,
+    "impact": 5.2,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-13836",
+    "base_score": 6.3,
+    "severity": "MEDIUM",
+    "vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:L/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+    "exploitability": "N/A",
+    "impact": "N/A",
+    "score_version": "CVSSv4.0"
+  },
+  {
+    "cve_id": "CVE-2025-13837",
+    "base_score": 2.1,
+    "severity": "LOW",
+    "vector": "CVSS:4.0/AV:L/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:L/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+    "exploitability": "N/A",
+    "impact": "N/A",
+    "score_version": "CVSSv4.0"
+  },
+  {
+    "cve_id": "CVE-2025-14104",
+    "base_score": 6.1,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H",
+    "exploitability": 1.8,
+    "impact": 4.2,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-14322",
+    "base_score": 8.0,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:N",
+    "exploitability": 1.6,
+    "impact": 5.8,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-14323",
+    "base_score": 8.8,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "exploitability": 2.8,
+    "impact": 5.9,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-14325",
+    "base_score": 7.3,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+    "exploitability": 3.9,
+    "impact": 3.4,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-14328",
+    "base_score": 8.8,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "exploitability": 2.8,
+    "impact": 5.9,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-14329",
+    "base_score": 8.8,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "exploitability": 2.8,
+    "impact": 5.9,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-14331",
+    "base_score": 6.5,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+    "exploitability": 3.9,
+    "impact": 2.5,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-14332",
+    "base_score": 7.3,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+    "exploitability": 3.9,
+    "impact": 3.4,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-14333",
+    "base_score": 8.1,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "exploitability": 2.2,
+    "impact": 5.9,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-22921",
+    "base_score": 6.5,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+    "exploitability": 2.8,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-24201",
+    "base_score": 10.0,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+    "exploitability": 3.9,
+    "impact": 6.0,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-31344",
+    "base_score": 7.3,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H",
+    "exploitability": 2.5,
+    "impact": 4.7,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-32049",
+    "base_score": 7.5,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "exploitability": 3.9,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-32907",
+    "base_score": 5.3,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+    "exploitability": 3.9,
+    "impact": 1.4,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-4035",
+    "base_score": 4.3,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+    "exploitability": 2.8,
+    "impact": 1.4,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-43718",
+    "base_score": 2.9,
+    "severity": "LOW",
+    "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
+    "exploitability": 1.4,
+    "impact": 1.4,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-4476",
+    "base_score": 4.3,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+    "exploitability": 2.8,
+    "impact": 1.4,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-4565",
+    "base_score": 8.2,
+    "severity": "HIGH",
+    "vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+    "exploitability": "N/A",
+    "impact": "N/A",
+    "score_version": "CVSSv4.0"
+  },
+  {
+    "cve_id": "CVE-2025-46394",
+    "base_score": 3.2,
+    "severity": "LOW",
+    "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:L/A:N",
+    "exploitability": 1.4,
+    "impact": 1.4,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-46421",
+    "base_score": 6.8,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N",
+    "exploitability": 1.6,
+    "impact": 5.2,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-48074",
+    "base_score": 4.6,
+    "severity": "MEDIUM",
+    "vector": "CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:A/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+    "exploitability": "N/A",
+    "impact": "N/A",
+    "score_version": "CVSSv4.0"
+  },
+  {
+    "cve_id": "CVE-2025-49175",
+    "base_score": 6.1,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H",
+    "exploitability": 1.8,
+    "impact": 4.2,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-49176",
+    "base_score": 7.3,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:H",
+    "exploitability": 1.8,
+    "impact": 5.5,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-49177",
+    "base_score": 6.1,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:L",
+    "exploitability": 1.8,
+    "impact": 4.2,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-49178",
+    "base_score": 5.5,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+    "exploitability": 1.8,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-49179",
+    "base_score": 7.3,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H",
+    "exploitability": 1.8,
+    "impact": 5.5,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-49180",
+    "base_score": 7.8,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "exploitability": 1.8,
+    "impact": 5.9,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-4945",
+    "base_score": 3.7,
+    "severity": "LOW",
+    "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
+    "exploitability": 2.2,
+    "impact": 1.4,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-4948",
+    "base_score": 7.5,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "exploitability": 3.9,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-4969",
+    "base_score": 6.5,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
+    "exploitability": 3.9,
+    "impact": 2.5,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-50420",
+    "base_score": 6.5,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+    "exploitability": 2.8,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-50422",
+    "base_score": 2.9,
+    "severity": "LOW",
+    "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
+    "exploitability": 1.4,
+    "impact": 1.4,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-52885",
+    "base_score": 6.1,
+    "severity": "MEDIUM",
+    "vector": "CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:U/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+    "exploitability": "N/A",
+    "impact": "N/A",
+    "score_version": "CVSSv4.0"
+  },
+  {
+    "cve_id": "CVE-2025-53905",
+    "base_score": 4.1,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:L/A:L",
+    "exploitability": 1.0,
+    "impact": 2.7,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-53906",
+    "base_score": 4.1,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:L/A:L",
+    "exploitability": 1.0,
+    "impact": 2.7,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-54764",
+    "base_score": 6.2,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "exploitability": 2.5,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-55188",
+    "base_score": 3.6,
+    "severity": "LOW",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:N/I:L/A:N",
+    "exploitability": 1.8,
+    "impact": 1.4,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-57812",
+    "base_score": 3.7,
+    "severity": "LOW",
+    "vector": "CVSS:3.1/AV:A/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N",
+    "exploitability": 1.2,
+    "impact": 2.5,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-58436",
+    "base_score": 5.1,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "exploitability": 1.4,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-5918",
+    "base_score": 3.9,
+    "severity": "LOW",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:L",
+    "exploitability": 1.3,
+    "impact": 2.5,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-59375",
+    "base_score": 7.5,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "exploitability": 3.9,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-59438",
+    "base_score": 5.3,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+    "exploitability": 3.9,
+    "impact": 1.4,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-59798",
+    "base_score": 4.3,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:L/A:N",
+    "exploitability": 2.5,
+    "impact": 1.4,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-59799",
+    "base_score": 4.3,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:L/A:N",
+    "exploitability": 2.5,
+    "impact": 1.4,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-6069",
+    "base_score": 4.3,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
+    "exploitability": 2.8,
+    "impact": 1.4,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-6075",
+    "base_score": 1.8,
+    "severity": "LOW",
+    "vector": "CVSS:4.0/AV:L/AC:L/AT:P/PR:H/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+    "exploitability": "N/A",
+    "impact": "N/A",
+    "score_version": "CVSSv4.0"
+  },
+  {
+    "cve_id": "CVE-2025-60876",
+    "base_score": 6.5,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+    "exploitability": 3.9,
+    "impact": 2.5,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-6141",
+    "base_score": 4.8,
+    "severity": "MEDIUM",
+    "vector": "CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+    "exploitability": "N/A",
+    "impact": "N/A",
+    "score_version": "CVSSv4.0"
+  },
+  {
+    "cve_id": "CVE-2025-61915",
+    "base_score": 6.0,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:N/I:N/A:H",
+    "exploitability": 1.5,
+    "impact": 4.0,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-61984",
+    "base_score": 3.6,
+    "severity": "LOW",
+    "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N",
+    "exploitability": 1.0,
+    "impact": 2.5,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-61985",
+    "base_score": 3.6,
+    "severity": "LOW",
+    "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N",
+    "exploitability": 1.0,
+    "impact": 2.5,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-62171",
+    "base_score": 5.9,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "exploitability": 2.2,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-62229",
+    "base_score": 7.3,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:H",
+    "exploitability": 1.8,
+    "impact": 5.5,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-62230",
+    "base_score": 7.3,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H",
+    "exploitability": 1.8,
+    "impact": 5.5,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-62231",
+    "base_score": 7.3,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H",
+    "exploitability": 1.8,
+    "impact": 5.5,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-64503",
+    "base_score": 4.0,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+    "exploitability": 2.5,
+    "impact": 1.4,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-64505",
+    "base_score": 6.1,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H",
+    "exploitability": 1.8,
+    "impact": 4.2,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-64506",
+    "base_score": 6.1,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H",
+    "exploitability": 1.8,
+    "impact": 4.2,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-64524",
+    "base_score": 3.3,
+    "severity": "LOW",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
+    "exploitability": 1.8,
+    "impact": 1.4,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-64720",
+    "base_score": 7.1,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H",
+    "exploitability": 2.8,
+    "impact": 4.2,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-65018",
+    "base_score": 7.1,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H",
+    "exploitability": 1.8,
+    "impact": 5.2,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-65404",
+    "base_score": 6.5,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+    "exploitability": 2.8,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-65405",
+    "base_score": 6.5,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+    "exploitability": 2.8,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-65406",
+    "base_score": 6.5,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+    "exploitability": 2.8,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-65407",
+    "base_score": 6.5,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+    "exploitability": 2.8,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-65408",
+    "base_score": 6.5,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+    "exploitability": 2.8,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-66293",
+    "base_score": 7.1,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H",
+    "exploitability": 2.8,
+    "impact": 4.2,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-66382",
+    "base_score": 2.9,
+    "severity": "LOW",
+    "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
+    "exploitability": 1.4,
+    "impact": 1.4,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-66418",
+    "base_score": 8.9,
+    "severity": "HIGH",
+    "vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:H/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+    "exploitability": "N/A",
+    "impact": "N/A",
+    "score_version": "CVSSv4.0"
+  },
+  {
+    "cve_id": "CVE-2025-66471",
+    "base_score": 8.9,
+    "severity": "HIGH",
+    "vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:H/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+    "exploitability": "N/A",
+    "impact": "N/A",
+    "score_version": "CVSSv4.0"
+  },
+  {
+    "cve_id": "CVE-2025-6966",
+    "base_score": 6.9,
+    "severity": "MEDIUM",
+    "vector": "CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+    "exploitability": "N/A",
+    "impact": "N/A",
+    "score_version": "CVSSv4.0"
+  },
+  {
+    "cve_id": "CVE-2025-7425",
+    "base_score": 7.8,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:H",
+    "exploitability": 1.4,
+    "impact": 5.8,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-7462",
+    "base_score": 5.3,
+    "severity": "MEDIUM",
+    "vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+    "exploitability": "N/A",
+    "impact": "N/A",
+    "score_version": "CVSSv4.0"
+  },
+  {
+    "cve_id": "CVE-2025-8114",
+    "base_score": 4.7,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H",
+    "exploitability": 1.0,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-8194",
+    "base_score": 7.5,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "exploitability": 3.9,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-8277",
+    "base_score": 3.1,
+    "severity": "LOW",
+    "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L",
+    "exploitability": 1.6,
+    "impact": 1.4,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-8291",
+    "base_score": 4.3,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+    "exploitability": 2.8,
+    "impact": 1.4,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-8869",
+    "base_score": 5.9,
+    "severity": "MEDIUM",
+    "vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:A/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+    "exploitability": "N/A",
+    "impact": "N/A",
+    "score_version": "CVSSv4.0"
+  },
+  {
+    "cve_id": "CVE-2025-8941",
+    "base_score": 7.8,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "exploitability": 1.8,
+    "impact": 5.9,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-9086",
+    "base_score": 7.5,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "exploitability": 3.9,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-9230",
+    "base_score": 7.5,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "exploitability": 3.9,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-9640",
+    "base_score": 4.3,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+    "exploitability": 2.8,
+    "impact": 1.4,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-9714",
+    "base_score": 6.2,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "exploitability": 2.5,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-9900",
+    "base_score": 8.8,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "exploitability": 2.8,
+    "impact": 5.9,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-9901",
+    "base_score": 5.9,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "exploitability": 2.2,
+    "impact": 3.6,
+    "score_version": "CVSSv3.1"
+  },
+  {
+    "cve_id": "CVE-2025-9951",
+    "base_score": 7.2,
+    "severity": "HIGH",
+    "vector": "CVSS:4.0/AV:N/AC:H/AT:N/PR:L/UI:N/VC:N/VI:H/VA:H/SC:N/SI:H/SA:H/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+    "exploitability": "N/A",
+    "impact": "N/A",
+    "score_version": "CVSSv4.0"
+  }
+]
