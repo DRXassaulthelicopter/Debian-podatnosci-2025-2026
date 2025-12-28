@@ -1,0 +1,33 @@
+[Unit]
+Description=Scanner
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+
+User=cveapi
+Group=cveapi
+
+WorkingDirectory=/opt/scanner
+EnvironmentFile=/etc/scanner/scanner.env
+
+# ExecStart=/opt/scanner/.venv/bin/python /opt/scanner/main.py
+ExecStart=/usr/bin/python3 /opt/scanner/main.py
+
+Restart=on-failure
+RestartSec=2
+TimeoutStartSec=30
+
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/cache/scanner
+
+# journald
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
