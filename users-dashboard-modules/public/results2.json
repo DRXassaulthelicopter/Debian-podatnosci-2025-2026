@@ -1,0 +1,5349 @@
+{
+  "platform": {
+    "hostname": "raspberrypi",
+    "fqdn": "raspberrypi",
+    "ip": "192.168.1.177",
+    "ip_addresses": [
+      "192.168.1.177",
+      "fd1f:5864:39fd::11f",
+      "fd1f:5864:39fd:0:7d21:2ae1:3bcf:7908"
+    ],
+    "debian": {
+      "suite": "trixie",
+      "pretty_name": "Debian GNU/Linux 13 (trixie)",
+      "version_id": "13",
+      "codename": "trixie"
+    }
+  },
+  "vulnerabilities": [
+    {
+      "cve_id": "CVE-2013-7445",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "linux-headers-6.12.47+rpt-common-rpi",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-6.12.47+rpt-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-6.12.47+rpt-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-6.12.47+rpt-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-6.12.47+rpt-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-kbuild-6.12.47+rpt",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-libc-dev",
+          "installed_version": "1:6.12.47-1+rpt1"
+        }
+      ],
+      "base_score": 7.8,
+      "severity": "N/A",
+      "vector": "AV:N/AC:L/Au:N/C:N/I:N/A:C",
+      "exploitability": 10.0,
+      "impact": 6.9,
+      "score_version": "CVSSv2"
+    },
+    {
+      "cve_id": "CVE-2017-7475",
+      "debsecan_status": "low urgency",
+      "affected_packages": [
+        {
+          "name": "libcairo-gobject2",
+          "installed_version": "1.18.4-1+rpt1"
+        },
+        {
+          "name": "libcairo-script-interpreter2",
+          "installed_version": "1.18.4-1+rpt1"
+        },
+        {
+          "name": "libcairo2",
+          "installed_version": "1.18.4-1+rpt1"
+        }
+      ],
+      "base_score": 5.5,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "exploitability": 1.8,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2018-12928",
+      "debsecan_status": "low urgency",
+      "affected_packages": [
+        {
+          "name": "linux-headers-6.12.47+rpt-common-rpi",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-6.12.47+rpt-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-6.12.47+rpt-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-6.12.47+rpt-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-6.12.47+rpt-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-kbuild-6.12.47+rpt",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-libc-dev",
+          "installed_version": "1:6.12.47-1+rpt1"
+        }
+      ],
+      "base_score": 4.9,
+      "severity": "N/A",
+      "vector": "AV:L/AC:L/Au:N/C:N/I:N/A:C",
+      "exploitability": 3.9,
+      "impact": 6.9,
+      "score_version": "CVSSv2"
+    },
+    {
+      "cve_id": "CVE-2019-19449",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "linux-headers-6.12.47+rpt-common-rpi",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-6.12.47+rpt-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-6.12.47+rpt-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-6.12.47+rpt-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-6.12.47+rpt-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-kbuild-6.12.47+rpt",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-libc-dev",
+          "installed_version": "1:6.12.47-1+rpt1"
+        }
+      ],
+      "base_score": 7.8,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "exploitability": 1.8,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2019-19814",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "linux-headers-6.12.47+rpt-common-rpi",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-6.12.47+rpt-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-6.12.47+rpt-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-6.12.47+rpt-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-6.12.47+rpt-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-kbuild-6.12.47+rpt",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-libc-dev",
+          "installed_version": "1:6.12.47-1+rpt1"
+        }
+      ],
+      "base_score": 7.8,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "exploitability": 1.8,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2019-20794",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "linux-headers-6.12.47+rpt-common-rpi",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-6.12.47+rpt-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-6.12.47+rpt-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-6.12.47+rpt-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-6.12.47+rpt-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-kbuild-6.12.47+rpt",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-libc-dev",
+          "installed_version": "1:6.12.47-1+rpt1"
+        }
+      ],
+      "base_score": 4.7,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "exploitability": 1.0,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2019-6988",
+      "debsecan_status": "low urgency",
+      "affected_packages": [
+        {
+          "name": "libopenjp2-7",
+          "installed_version": "2.5.3-2.1~deb13u1"
+        }
+      ],
+      "base_score": 4.3,
+      "severity": "N/A",
+      "vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P",
+      "exploitability": 8.6,
+      "impact": 2.9,
+      "score_version": "CVSSv2"
+    },
+    {
+      "cve_id": "CVE-2019-9543",
+      "debsecan_status": "low urgency",
+      "affected_packages": [
+        {
+          "name": "libpoppler-cpp2",
+          "installed_version": "25.03.0-5"
+        },
+        {
+          "name": "libpoppler-glib8t64",
+          "installed_version": "25.03.0-5"
+        },
+        {
+          "name": "libpoppler147",
+          "installed_version": "25.03.0-5"
+        },
+        {
+          "name": "poppler-utils",
+          "installed_version": "25.03.0-5"
+        }
+      ],
+      "base_score": 6.8,
+      "severity": "N/A",
+      "vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+      "exploitability": 8.6,
+      "impact": 6.4,
+      "score_version": "CVSSv2"
+    },
+    {
+      "cve_id": "CVE-2019-9545",
+      "debsecan_status": "low urgency",
+      "affected_packages": [
+        {
+          "name": "libpoppler-cpp2",
+          "installed_version": "25.03.0-5"
+        },
+        {
+          "name": "libpoppler-glib8t64",
+          "installed_version": "25.03.0-5"
+        },
+        {
+          "name": "libpoppler147",
+          "installed_version": "25.03.0-5"
+        },
+        {
+          "name": "poppler-utils",
+          "installed_version": "25.03.0-5"
+        }
+      ],
+      "base_score": 6.8,
+      "severity": "N/A",
+      "vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+      "exploitability": 8.6,
+      "impact": 6.4,
+      "score_version": "CVSSv2"
+    },
+    {
+      "cve_id": "CVE-2020-14304",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "linux-headers-6.12.47+rpt-common-rpi",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-6.12.47+rpt-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-6.12.47+rpt-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-6.12.47+rpt-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-6.12.47+rpt-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-kbuild-6.12.47+rpt",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-libc-dev",
+          "installed_version": "1:6.12.47-1+rpt1"
+        }
+      ],
+      "base_score": 4.4,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+      "exploitability": 0.8,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2020-15999",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "chromium",
+          "installed_version": "1:140.0.7339.185-1~deb13u1+rpt1"
+        },
+        {
+          "name": "chromium-common",
+          "installed_version": "1:140.0.7339.185-1~deb13u1+rpt1"
+        },
+        {
+          "name": "chromium-l10n",
+          "installed_version": "1:140.0.7339.185-1~deb13u1+rpt1"
+        },
+        {
+          "name": "chromium-sandbox",
+          "installed_version": "1:140.0.7339.185-1~deb13u1+rpt1"
+        }
+      ],
+      "base_score": 9.6,
+      "severity": "CRITICAL",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+      "exploitability": 2.8,
+      "impact": 6.0,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2020-16044",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "chromium",
+          "installed_version": "1:140.0.7339.185-1~deb13u1+rpt1"
+        },
+        {
+          "name": "chromium-common",
+          "installed_version": "1:140.0.7339.185-1~deb13u1+rpt1"
+        },
+        {
+          "name": "chromium-l10n",
+          "installed_version": "1:140.0.7339.185-1~deb13u1+rpt1"
+        },
+        {
+          "name": "chromium-sandbox",
+          "installed_version": "1:140.0.7339.185-1~deb13u1+rpt1"
+        }
+      ],
+      "base_score": 8.8,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "exploitability": 2.8,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2020-24027",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libbasicusageenvironment2",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "libgroupsock30",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "liblivemedia116",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "libusageenvironment3",
+          "installed_version": "2025.05.24-1"
+        }
+      ],
+      "base_score": 9.8,
+      "severity": "CRITICAL",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "exploitability": 3.9,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2020-27748",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "xdg-utils",
+          "installed_version": "1.2.1-2"
+        }
+      ],
+      "base_score": 6.5,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+      "exploitability": 2.8,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2020-36694",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "linux-headers-6.12.47+rpt-common-rpi",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-6.12.47+rpt-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-6.12.47+rpt-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-6.12.47+rpt-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-6.12.47+rpt-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-kbuild-6.12.47+rpt",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-libc-dev",
+          "installed_version": "1:6.12.47-1+rpt1"
+        }
+      ],
+      "base_score": 6.7,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "exploitability": 0.8,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2021-28899",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libbasicusageenvironment2",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "libgroupsock30",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "liblivemedia116",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "libusageenvironment3",
+          "installed_version": "2025.05.24-1"
+        }
+      ],
+      "base_score": 7.5,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "exploitability": 3.9,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2021-31879",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "wget",
+          "installed_version": "1.25.0-2"
+        }
+      ],
+      "base_score": 6.1,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "exploitability": 2.8,
+      "impact": 2.7,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2021-38380",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libbasicusageenvironment2",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "libgroupsock30",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "liblivemedia116",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "libusageenvironment3",
+          "installed_version": "2025.05.24-1"
+        }
+      ],
+      "base_score": 7.5,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "exploitability": 3.9,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2021-38381",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libbasicusageenvironment2",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "libgroupsock30",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "liblivemedia116",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "libusageenvironment3",
+          "installed_version": "2025.05.24-1"
+        }
+      ],
+      "base_score": 6.5,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "exploitability": 2.8,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2021-38382",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libbasicusageenvironment2",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "libgroupsock30",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "liblivemedia116",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "libusageenvironment3",
+          "installed_version": "2025.05.24-1"
+        }
+      ],
+      "base_score": 6.5,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "exploitability": 2.8,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2021-3847",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "linux-headers-6.12.47+rpt-common-rpi",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-6.12.47+rpt-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-6.12.47+rpt-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-6.12.47+rpt-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-6.12.47+rpt-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-kbuild-6.12.47+rpt",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-libc-dev",
+          "installed_version": "1:6.12.47-1+rpt1"
+        }
+      ],
+      "base_score": 7.8,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "exploitability": 1.8,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2021-3864",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "linux-headers-6.12.47+rpt-common-rpi",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-6.12.47+rpt-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-6.12.47+rpt-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-6.12.47+rpt-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-6.12.47+rpt-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-kbuild-6.12.47+rpt",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-libc-dev",
+          "installed_version": "1:6.12.47-1+rpt1"
+        }
+      ],
+      "base_score": 7.0,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "exploitability": 1.0,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2021-39282",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libbasicusageenvironment2",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "libgroupsock30",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "liblivemedia116",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "libusageenvironment3",
+          "installed_version": "2025.05.24-1"
+        }
+      ],
+      "base_score": 7.5,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "exploitability": 3.9,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2021-39283",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libbasicusageenvironment2",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "libgroupsock30",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "liblivemedia116",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "libusageenvironment3",
+          "installed_version": "2025.05.24-1"
+        }
+      ],
+      "base_score": 5.5,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "exploitability": 1.8,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2021-41396",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libbasicusageenvironment2",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "libgroupsock30",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "liblivemedia116",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "libusageenvironment3",
+          "installed_version": "2025.05.24-1"
+        }
+      ],
+      "base_score": 7.5,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "exploitability": 3.9,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2022-4055",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "xdg-utils",
+          "installed_version": "1.2.1-2"
+        }
+      ],
+      "base_score": 7.4,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:H/A:N",
+      "exploitability": 2.8,
+      "impact": 4.0,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2023-31082",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "linux-headers-6.12.47+rpt-common-rpi",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-6.12.47+rpt-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-6.12.47+rpt-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-6.12.47+rpt-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-6.12.47+rpt-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-kbuild-6.12.47+rpt",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-libc-dev",
+          "installed_version": "1:6.12.47-1+rpt1"
+        }
+      ],
+      "base_score": 5.5,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "exploitability": 1.8,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2023-3397",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "linux-headers-6.12.47+rpt-common-rpi",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-6.12.47+rpt-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-6.12.47+rpt-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-6.12.47+rpt-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-6.12.47+rpt-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-kbuild-6.12.47+rpt",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-libc-dev",
+          "installed_version": "1:6.12.47-1+rpt1"
+        }
+      ],
+      "base_score": 7.0,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "exploitability": 1.0,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2023-37117",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libbasicusageenvironment2",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "libgroupsock30",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "liblivemedia116",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "libusageenvironment3",
+          "installed_version": "2025.05.24-1"
+        }
+      ],
+      "base_score": 9.8,
+      "severity": "CRITICAL",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "exploitability": 3.9,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2023-37454",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "linux-headers-6.12.47+rpt-common-rpi",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-6.12.47+rpt-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-6.12.47+rpt-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-6.12.47+rpt-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-6.12.47+rpt-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-kbuild-6.12.47+rpt",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-libc-dev",
+          "installed_version": "1:6.12.47-1+rpt1"
+        }
+      ],
+      "base_score": 5.5,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "exploitability": 1.8,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2023-39327",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libopenjp2-7",
+          "installed_version": "2.5.3-2.1~deb13u1"
+        }
+      ],
+      "base_score": 4.3,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+      "exploitability": 2.8,
+      "impact": 1.4,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2023-39328",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libopenjp2-7",
+          "installed_version": "2.5.3-2.1~deb13u1"
+        }
+      ],
+      "base_score": 5.5,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "exploitability": 1.8,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2023-39329",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libopenjp2-7",
+          "installed_version": "2.5.3-2.1~deb13u1"
+        }
+      ],
+      "base_score": 6.5,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "exploitability": 2.8,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2023-39810",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "busybox",
+          "installed_version": "1:1.37.0-6+b3"
+        }
+      ],
+      "base_score": 7.8,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "exploitability": 1.8,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2023-4010",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "linux-headers-6.12.47+rpt-common-rpi",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-6.12.47+rpt-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-6.12.47+rpt-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-6.12.47+rpt-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-6.12.47+rpt-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-kbuild-6.12.47+rpt",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-libc-dev",
+          "installed_version": "1:6.12.47-1+rpt1"
+        }
+      ],
+      "base_score": 4.6,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "exploitability": 0.9,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2023-42366",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "busybox",
+          "installed_version": "1:1.37.0-6+b3"
+        }
+      ],
+      "base_score": 5.5,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "exploitability": 1.8,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2023-44431",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "bluez",
+          "installed_version": "5.82-1.1+rpt1"
+        },
+        {
+          "name": "libbluetooth3",
+          "installed_version": "5.82-1.1+rpt1"
+        }
+      ],
+      "base_score": 8.0,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "exploitability": 2.1,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2023-51580",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "bluez",
+          "installed_version": "5.82-1.1+rpt1"
+        },
+        {
+          "name": "libbluetooth3",
+          "installed_version": "5.82-1.1+rpt1"
+        }
+      ],
+      "base_score": 5.7,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+      "exploitability": 2.1,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2023-51589",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "bluez",
+          "installed_version": "5.82-1.1+rpt1"
+        },
+        {
+          "name": "libbluetooth3",
+          "installed_version": "5.82-1.1+rpt1"
+        }
+      ],
+      "base_score": 5.7,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+      "exploitability": 2.1,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2023-51592",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "bluez",
+          "installed_version": "5.82-1.1+rpt1"
+        },
+        {
+          "name": "libbluetooth3",
+          "installed_version": "5.82-1.1+rpt1"
+        }
+      ],
+      "base_score": 5.7,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+      "exploitability": 2.1,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2023-51594",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "bluez",
+          "installed_version": "5.82-1.1+rpt1"
+        },
+        {
+          "name": "libbluetooth3",
+          "installed_version": "5.82-1.1+rpt1"
+        }
+      ],
+      "base_score": 5.7,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+      "exploitability": 2.1,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2023-5574",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "xserver-common",
+          "installed_version": "2:21.1.16-1.3+rpt1"
+        },
+        {
+          "name": "xserver-xorg-core",
+          "installed_version": "2:21.1.16-1.3+rpt1"
+        }
+      ],
+      "base_score": 7.0,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "exploitability": 1.0,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2023-6240",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "linux-headers-6.12.47+rpt-common-rpi",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-6.12.47+rpt-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-6.12.47+rpt-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-6.12.47+rpt-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-6.12.47+rpt-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-kbuild-6.12.47+rpt",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-libc-dev",
+          "installed_version": "1:6.12.47-1+rpt1"
+        }
+      ],
+      "base_score": 6.5,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:N",
+      "exploitability": 2.2,
+      "impact": 4.2,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2024-13978",
+      "debsecan_status": "fixed",
+      "affected_packages": [
+        {
+          "name": "libtiff6",
+          "installed_version": "4.7.0-3"
+        }
+      ],
+      "base_score": 2.0,
+      "severity": "LOW",
+      "vector": "CVSS:4.0/AV:L/AC:H/AT:N/PR:L/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+      "exploitability": "N/A",
+      "impact": "N/A",
+      "score_version": "CVSSv4.0"
+    },
+    {
+      "cve_id": "CVE-2024-21803",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "linux-headers-6.12.47+rpt-common-rpi",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-6.12.47+rpt-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-6.12.47+rpt-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-6.12.47+rpt-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-6.12.47+rpt-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-kbuild-6.12.47+rpt",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-libc-dev",
+          "installed_version": "1:6.12.47-1+rpt1"
+        }
+      ],
+      "base_score": 3.5,
+      "severity": "LOW",
+      "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:N/I:N/A:L",
+      "exploitability": 1.8,
+      "impact": 1.4,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2024-2193",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "linux-headers-6.12.47+rpt-common-rpi",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-6.12.47+rpt-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-6.12.47+rpt-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-6.12.47+rpt-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-6.12.47+rpt-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-kbuild-6.12.47+rpt",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-libc-dev",
+          "installed_version": "1:6.12.47-1+rpt1"
+        }
+      ],
+      "base_score": 5.7,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:N",
+      "exploitability": 0.5,
+      "impact": 5.2,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2024-24864",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "linux-headers-6.12.47+rpt-common-rpi",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-6.12.47+rpt-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-6.12.47+rpt-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-headers-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-6.12.47+rpt-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-6.12.47+rpt-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-rpi-2712",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-image-rpi-v8",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-kbuild-6.12.47+rpt",
+          "installed_version": "1:6.12.47-1+rpt1"
+        },
+        {
+          "name": "linux-libc-dev",
+          "installed_version": "1:6.12.47-1+rpt1"
+        }
+      ],
+      "base_score": 5.3,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:N/A:H",
+      "exploitability": 0.8,
+      "impact": 4.0,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2024-38949",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libde265-0",
+          "installed_version": "1.0.15-1+b3"
+        }
+      ],
+      "base_score": 6.5,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "exploitability": 2.8,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2024-38950",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libde265-0",
+          "installed_version": "1.0.15-1+b3"
+        }
+      ],
+      "base_score": 6.5,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "exploitability": 2.8,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2024-47081",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "python3-requests",
+          "installed_version": "2.32.3+dfsg-5"
+        }
+      ],
+      "base_score": 5.3,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N",
+      "exploitability": 1.6,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2024-47850",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "cups-browsed",
+          "installed_version": "1.28.17-6"
+        },
+        {
+          "name": "cups-filters",
+          "installed_version": "1.28.17-6"
+        },
+        {
+          "name": "cups-filters-core-drivers",
+          "installed_version": "1.28.17-6"
+        },
+        {
+          "name": "libcupsfilters1t64",
+          "installed_version": "1.28.17-6"
+        },
+        {
+          "name": "libfontembed1t64",
+          "installed_version": "1.28.17-6"
+        }
+      ],
+      "base_score": 7.5,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "exploitability": 3.9,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2024-47866",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "librados2",
+          "installed_version": "18.2.7+ds-1"
+        },
+        {
+          "name": "librbd1",
+          "installed_version": "18.2.7+ds-1"
+        }
+      ],
+      "base_score": 7.5,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "exploitability": 3.9,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2024-50613",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libsndfile1",
+          "installed_version": "1.2.2-2+b1"
+        }
+      ],
+      "base_score": 6.5,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "exploitability": 2.8,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2024-52615",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "avahi-daemon",
+          "installed_version": "0.8-16"
+        },
+        {
+          "name": "libavahi-client3",
+          "installed_version": "0.8-16"
+        },
+        {
+          "name": "libavahi-common-data",
+          "installed_version": "0.8-16"
+        },
+        {
+          "name": "libavahi-common3",
+          "installed_version": "0.8-16"
+        },
+        {
+          "name": "libavahi-core7",
+          "installed_version": "0.8-16"
+        },
+        {
+          "name": "libavahi-glib1",
+          "installed_version": "0.8-16"
+        }
+      ],
+      "base_score": 5.3,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+      "exploitability": 3.9,
+      "impact": 1.4,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2024-52616",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "avahi-daemon",
+          "installed_version": "0.8-16"
+        },
+        {
+          "name": "libavahi-client3",
+          "installed_version": "0.8-16"
+        },
+        {
+          "name": "libavahi-common-data",
+          "installed_version": "0.8-16"
+        },
+        {
+          "name": "libavahi-common3",
+          "installed_version": "0.8-16"
+        },
+        {
+          "name": "libavahi-core7",
+          "installed_version": "0.8-16"
+        },
+        {
+          "name": "libavahi-glib1",
+          "installed_version": "0.8-16"
+        }
+      ],
+      "base_score": 5.3,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+      "exploitability": 3.9,
+      "impact": 1.4,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2024-56433",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "login.defs",
+          "installed_version": "1:4.17.4-2"
+        },
+        {
+          "name": "passwd",
+          "installed_version": "1:4.17.4-2"
+        }
+      ],
+      "base_score": 3.6,
+      "severity": "LOW",
+      "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N",
+      "exploitability": 1.0,
+      "impact": 2.5,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2024-58251",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "busybox",
+          "installed_version": "1:1.37.0-6+b3"
+        }
+      ],
+      "base_score": 2.5,
+      "severity": "LOW",
+      "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L",
+      "exploitability": 1.0,
+      "impact": 1.4,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2024-7254",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libprotobuf-lite32t64",
+          "installed_version": "3.21.12-11"
+        },
+        {
+          "name": "libprotobuf32t64",
+          "installed_version": "3.21.12-11"
+        }
+      ],
+      "base_score": 8.7,
+      "severity": "HIGH",
+      "vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+      "exploitability": "N/A",
+      "impact": "N/A",
+      "score_version": "CVSSv4.0"
+    },
+    {
+      "cve_id": "CVE-2024-7883",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libllvm19",
+          "installed_version": "1:19.1.7-3+b1"
+        }
+      ],
+      "base_score": 3.7,
+      "severity": "LOW",
+      "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "exploitability": 2.2,
+      "impact": 1.4,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-10158",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "rsync",
+          "installed_version": "3.4.1+ds1-5"
+        }
+      ],
+      "base_score": 4.3,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+      "exploitability": 2.8,
+      "impact": 1.4,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-10230",
+      "debsecan_status": "fixed",
+      "affected_packages": [
+        {
+          "name": "libldb2",
+          "installed_version": "2:2.11.0+samba4.22.4+dfsg-1~deb13u1"
+        },
+        {
+          "name": "libsmbclient0",
+          "installed_version": "2:4.22.4+dfsg-1~deb13u1"
+        },
+        {
+          "name": "libtalloc2",
+          "installed_version": "2:2.4.3+samba4.22.4+dfsg-1~deb13u1"
+        },
+        {
+          "name": "libtdb1",
+          "installed_version": "2:1.4.13+samba4.22.4+dfsg-1~deb13u1"
+        },
+        {
+          "name": "libtevent0t64",
+          "installed_version": "2:0.16.2+samba4.22.4+dfsg-1~deb13u1"
+        },
+        {
+          "name": "libwbclient0",
+          "installed_version": "2:4.22.4+dfsg-1~deb13u1"
+        },
+        {
+          "name": "samba-libs",
+          "installed_version": "2:4.22.4+dfsg-1~deb13u1"
+        }
+      ],
+      "base_score": 10.0,
+      "severity": "CRITICAL",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+      "exploitability": 3.9,
+      "impact": 6.0,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-10527",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 7.1,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:L",
+      "exploitability": 2.8,
+      "impact": 3.7,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-10528",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 7.3,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+      "exploitability": 3.9,
+      "impact": 3.4,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-10529",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 6.5,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+      "exploitability": 3.9,
+      "impact": 2.5,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-10531",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 5.4,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
+      "exploitability": 2.8,
+      "impact": 2.5,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-10532",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 6.5,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+      "exploitability": 3.9,
+      "impact": 2.5,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-10533",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 8.8,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "exploitability": 2.8,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-10534",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 8.1,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+      "exploitability": 2.8,
+      "impact": 5.2,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-10536",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 6.2,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "exploitability": 2.5,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-10537",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 8.8,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "exploitability": 2.8,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-10729",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libqt5svg5",
+          "installed_version": "5.15.15-2"
+        },
+        {
+          "name": "libqt6svg6",
+          "installed_version": "6.8.2-3"
+        },
+        {
+          "name": "qt6-svg-plugins",
+          "installed_version": "6.8.2-3"
+        }
+      ],
+      "base_score": 9.4,
+      "severity": "CRITICAL",
+      "vector": "CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:P/AU:X/R:X/V:X/RE:H/U:Red",
+      "exploitability": "N/A",
+      "impact": "N/A",
+      "score_version": "CVSSv4.0"
+    },
+    {
+      "cve_id": "CVE-2025-10911",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libxslt1.1",
+          "installed_version": "1.1.35-1.2+deb13u2"
+        }
+      ],
+      "base_score": 5.5,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "exploitability": 1.8,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-11001",
+      "debsecan_status": "fixed",
+      "affected_packages": [
+        {
+          "name": "7zip",
+          "installed_version": "24.09+dfsg-8"
+        }
+      ],
+      "base_score": 7.8,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "exploitability": 1.8,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-11021",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libsoup-3.0-0",
+          "installed_version": "3.6.5-3"
+        },
+        {
+          "name": "libsoup-3.0-common",
+          "installed_version": "3.6.5-3"
+        }
+      ],
+      "base_score": 7.5,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "exploitability": 3.9,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-11152",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 8.6,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:L",
+      "exploitability": 3.9,
+      "impact": 4.7,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-11153",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 7.5,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "exploitability": 3.9,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-11708",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 9.8,
+      "severity": "CRITICAL",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "exploitability": 3.9,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-11709",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 9.8,
+      "severity": "CRITICAL",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "exploitability": 3.9,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-11710",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 9.8,
+      "severity": "CRITICAL",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "exploitability": 3.9,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-11711",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 6.5,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+      "exploitability": 2.8,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-11712",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 6.1,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "exploitability": 2.8,
+      "impact": 2.7,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-11714",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 8.8,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "exploitability": 2.8,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-11715",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 8.8,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "exploitability": 2.8,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-11718",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 6.5,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+      "exploitability": 2.8,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-11721",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 9.8,
+      "severity": "CRITICAL",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "exploitability": 3.9,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-11731",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libxslt1.1",
+          "installed_version": "1.1.35-1.2+deb13u2"
+        }
+      ],
+      "base_score": 3.1,
+      "severity": "LOW",
+      "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L",
+      "exploitability": 1.6,
+      "impact": 1.4,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-12084",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libpython3.13",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "libpython3.13-dev",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "libpython3.13-minimal",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "libpython3.13-stdlib",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "python3.13",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "python3.13-dev",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "python3.13-minimal",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "python3.13-tk",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "python3.13-venv",
+          "installed_version": "3.13.5-2"
+        }
+      ],
+      "base_score": 6.3,
+      "severity": "MEDIUM",
+      "vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+      "exploitability": "N/A",
+      "impact": "N/A",
+      "score_version": "CVSSv4.0"
+    },
+    {
+      "cve_id": "CVE-2025-12105",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libsoup-3.0-0",
+          "installed_version": "3.6.5-3"
+        },
+        {
+          "name": "libsoup-3.0-common",
+          "installed_version": "3.6.5-3"
+        }
+      ],
+      "base_score": 7.5,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "exploitability": 3.9,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-12380",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 9.8,
+      "severity": "CRITICAL",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "exploitability": 3.9,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-12385",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libqt5qml5",
+          "installed_version": "5.15.15+dfsg-3"
+        },
+        {
+          "name": "libqt5qmlmodels5",
+          "installed_version": "5.15.15+dfsg-3"
+        },
+        {
+          "name": "libqt5quick5",
+          "installed_version": "5.15.15+dfsg-3"
+        },
+        {
+          "name": "libqt6qml6",
+          "installed_version": "6.8.2+dfsg-7"
+        },
+        {
+          "name": "libqt6qmlmeta6",
+          "installed_version": "6.8.2+dfsg-7"
+        },
+        {
+          "name": "libqt6qmlmodels6",
+          "installed_version": "6.8.2+dfsg-7"
+        },
+        {
+          "name": "libqt6qmlworkerscript6",
+          "installed_version": "6.8.2+dfsg-7"
+        },
+        {
+          "name": "libqt6quick6",
+          "installed_version": "6.8.2+dfsg-7"
+        }
+      ],
+      "base_score": 8.7,
+      "severity": "HIGH",
+      "vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+      "exploitability": "N/A",
+      "impact": "N/A",
+      "score_version": "CVSSv4.0"
+    },
+    {
+      "cve_id": "CVE-2025-13012",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 7.5,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "exploitability": 1.6,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-13013",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 6.1,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "exploitability": 2.8,
+      "impact": 2.7,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-13014",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 8.8,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "exploitability": 2.8,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-13015",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 3.4,
+      "severity": "LOW",
+      "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:N/A:N",
+      "exploitability": 1.6,
+      "impact": 1.4,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-13016",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 7.5,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "exploitability": 1.6,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-13017",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 8.1,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+      "exploitability": 2.8,
+      "impact": 5.2,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-13018",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 8.1,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+      "exploitability": 2.8,
+      "impact": 5.2,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-13019",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 8.1,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+      "exploitability": 2.8,
+      "impact": 5.2,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-13020",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 8.8,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "exploitability": 2.8,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-13021",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 9.8,
+      "severity": "CRITICAL",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "exploitability": 3.9,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-13022",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 9.8,
+      "severity": "CRITICAL",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "exploitability": 3.9,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-13023",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 9.8,
+      "severity": "CRITICAL",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "exploitability": 3.9,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-13024",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 9.8,
+      "severity": "CRITICAL",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "exploitability": 3.9,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-13025",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 7.5,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "exploitability": 3.9,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-13026",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 9.8,
+      "severity": "CRITICAL",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "exploitability": 3.9,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-13027",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 8.1,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "exploitability": 2.2,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-13601",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "gir1.2-glib-2.0",
+          "installed_version": "2.84.4-3~deb13u1"
+        },
+        {
+          "name": "libglib2.0-0t64",
+          "installed_version": "2.84.4-3~deb13u1"
+        },
+        {
+          "name": "libglib2.0-bin",
+          "installed_version": "2.84.4-3~deb13u1"
+        },
+        {
+          "name": "libglib2.0-data",
+          "installed_version": "2.84.4-3~deb13u1"
+        }
+      ],
+      "base_score": 7.7,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H",
+      "exploitability": 2.5,
+      "impact": 5.2,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-13836",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libpython3.13",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "libpython3.13-dev",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "libpython3.13-minimal",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "libpython3.13-stdlib",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "python3.13",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "python3.13-dev",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "python3.13-minimal",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "python3.13-tk",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "python3.13-venv",
+          "installed_version": "3.13.5-2"
+        }
+      ],
+      "base_score": 6.3,
+      "severity": "MEDIUM",
+      "vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:L/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+      "exploitability": "N/A",
+      "impact": "N/A",
+      "score_version": "CVSSv4.0"
+    },
+    {
+      "cve_id": "CVE-2025-13837",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libpython3.13",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "libpython3.13-dev",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "libpython3.13-minimal",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "libpython3.13-stdlib",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "python3.13",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "python3.13-dev",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "python3.13-minimal",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "python3.13-tk",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "python3.13-venv",
+          "installed_version": "3.13.5-2"
+        }
+      ],
+      "base_score": 2.1,
+      "severity": "LOW",
+      "vector": "CVSS:4.0/AV:L/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:L/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+      "exploitability": "N/A",
+      "impact": "N/A",
+      "score_version": "CVSSv4.0"
+    },
+    {
+      "cve_id": "CVE-2025-14087",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "gir1.2-glib-2.0",
+          "installed_version": "2.84.4-3~deb13u1"
+        },
+        {
+          "name": "libglib2.0-0t64",
+          "installed_version": "2.84.4-3~deb13u1"
+        },
+        {
+          "name": "libglib2.0-bin",
+          "installed_version": "2.84.4-3~deb13u1"
+        },
+        {
+          "name": "libglib2.0-data",
+          "installed_version": "2.84.4-3~deb13u1"
+        }
+      ],
+      "base_score": 5.6,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
+      "exploitability": 2.2,
+      "impact": 3.4,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-14104",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "bsdextrautils",
+          "installed_version": "2.41-5"
+        },
+        {
+          "name": "bsdutils",
+          "installed_version": "1:2.41-5"
+        },
+        {
+          "name": "eject",
+          "installed_version": "2.41-5"
+        },
+        {
+          "name": "fdisk",
+          "installed_version": "2.41-5"
+        },
+        {
+          "name": "libblkid1",
+          "installed_version": "2.41-5"
+        },
+        {
+          "name": "libfdisk1",
+          "installed_version": "2.41-5"
+        },
+        {
+          "name": "liblastlog2-2",
+          "installed_version": "2.41-5"
+        },
+        {
+          "name": "libmount1",
+          "installed_version": "2.41-5"
+        },
+        {
+          "name": "libsmartcols1",
+          "installed_version": "2.41-5"
+        },
+        {
+          "name": "libuuid1",
+          "installed_version": "2.41-5"
+        },
+        {
+          "name": "login",
+          "installed_version": "1:4.16.0-2+really2.41-5"
+        },
+        {
+          "name": "mount",
+          "installed_version": "2.41-5"
+        },
+        {
+          "name": "rfkill",
+          "installed_version": "2.41-5"
+        },
+        {
+          "name": "util-linux",
+          "installed_version": "2.41-5"
+        },
+        {
+          "name": "uuid-dev",
+          "installed_version": "2.41-5"
+        }
+      ],
+      "base_score": 6.1,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H",
+      "exploitability": 1.8,
+      "impact": 4.2,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-14321",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 9.8,
+      "severity": "CRITICAL",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "exploitability": 3.9,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-14322",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 8.0,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:N",
+      "exploitability": 1.6,
+      "impact": 5.8,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-14323",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 8.8,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "exploitability": 2.8,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-14324",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 9.8,
+      "severity": "CRITICAL",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "exploitability": 3.9,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-14325",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 7.3,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+      "exploitability": 3.9,
+      "impact": 3.4,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-14326",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 9.8,
+      "severity": "CRITICAL",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "exploitability": 3.9,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-14327",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 7.5,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "exploitability": 3.9,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-14328",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 8.8,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "exploitability": 2.8,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-14329",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 8.8,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "exploitability": 2.8,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-14330",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 9.8,
+      "severity": "CRITICAL",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "exploitability": 3.9,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-14331",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 6.5,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+      "exploitability": 3.9,
+      "impact": 2.5,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-14332",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 7.3,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+      "exploitability": 3.9,
+      "impact": 3.4,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-14333",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 8.1,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "exploitability": 2.2,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-14512",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "gir1.2-glib-2.0",
+          "installed_version": "2.84.4-3~deb13u1"
+        },
+        {
+          "name": "libglib2.0-0t64",
+          "installed_version": "2.84.4-3~deb13u1"
+        },
+        {
+          "name": "libglib2.0-bin",
+          "installed_version": "2.84.4-3~deb13u1"
+        },
+        {
+          "name": "libglib2.0-data",
+          "installed_version": "2.84.4-3~deb13u1"
+        }
+      ],
+      "base_score": 6.5,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "exploitability": 2.8,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-14523",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libsoup-2.4-1",
+          "installed_version": "2.74.3-10.1"
+        },
+        {
+          "name": "libsoup-3.0-0",
+          "installed_version": "3.6.5-3"
+        },
+        {
+          "name": "libsoup-3.0-common",
+          "installed_version": "3.6.5-3"
+        },
+        {
+          "name": "libsoup2.4-common",
+          "installed_version": "2.74.3-10.1"
+        }
+      ],
+      "base_score": 8.2,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:N",
+      "exploitability": 3.9,
+      "impact": 4.2,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-14860",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 9.8,
+      "severity": "CRITICAL",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "exploitability": 3.9,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-14861",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "firefox",
+          "installed_version": "142.0.1-1+rpt1+b1"
+        }
+      ],
+      "base_score": 8.8,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "exploitability": 2.8,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-22921",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "ffmpeg",
+          "installed_version": "8:7.1.1-1~+rpt1"
+        },
+        {
+          "name": "libavcodec61",
+          "installed_version": "8:7.1.1-1~+rpt1"
+        },
+        {
+          "name": "libavdevice61",
+          "installed_version": "8:7.1.1-1~+rpt1"
+        },
+        {
+          "name": "libavfilter10",
+          "installed_version": "8:7.1.1-1~+rpt1"
+        },
+        {
+          "name": "libavformat61",
+          "installed_version": "8:7.1.1-1~+rpt1"
+        },
+        {
+          "name": "libavutil59",
+          "installed_version": "8:7.1.1-1~+rpt1"
+        },
+        {
+          "name": "libpostproc58",
+          "installed_version": "8:7.1.1-1~+rpt1"
+        },
+        {
+          "name": "libswresample5",
+          "installed_version": "8:7.1.1-1~+rpt1"
+        },
+        {
+          "name": "libswscale8",
+          "installed_version": "8:7.1.1-1~+rpt1"
+        }
+      ],
+      "base_score": 6.5,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "exploitability": 2.8,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-24201",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "chromium",
+          "installed_version": "1:140.0.7339.185-1~deb13u1+rpt1"
+        },
+        {
+          "name": "chromium-common",
+          "installed_version": "1:140.0.7339.185-1~deb13u1+rpt1"
+        },
+        {
+          "name": "chromium-l10n",
+          "installed_version": "1:140.0.7339.185-1~deb13u1+rpt1"
+        },
+        {
+          "name": "chromium-sandbox",
+          "installed_version": "1:140.0.7339.185-1~deb13u1+rpt1"
+        }
+      ],
+      "base_score": 10.0,
+      "severity": "CRITICAL",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+      "exploitability": 3.9,
+      "impact": 6.0,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-31344",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libgif7",
+          "installed_version": "5.2.2-1+b1"
+        }
+      ],
+      "base_score": 7.3,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H",
+      "exploitability": 2.5,
+      "impact": 4.7,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-32049",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libsoup-2.4-1",
+          "installed_version": "2.74.3-10.1"
+        },
+        {
+          "name": "libsoup-3.0-0",
+          "installed_version": "3.6.5-3"
+        },
+        {
+          "name": "libsoup-3.0-common",
+          "installed_version": "3.6.5-3"
+        },
+        {
+          "name": "libsoup2.4-common",
+          "installed_version": "2.74.3-10.1"
+        }
+      ],
+      "base_score": 7.5,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "exploitability": 3.9,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-32907",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libsoup-2.4-1",
+          "installed_version": "2.74.3-10.1"
+        },
+        {
+          "name": "libsoup2.4-common",
+          "installed_version": "2.74.3-10.1"
+        }
+      ],
+      "base_score": 5.3,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "exploitability": 3.9,
+      "impact": 1.4,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-4035",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libsoup-2.4-1",
+          "installed_version": "2.74.3-10.1"
+        },
+        {
+          "name": "libsoup-3.0-0",
+          "installed_version": "3.6.5-3"
+        },
+        {
+          "name": "libsoup-3.0-common",
+          "installed_version": "3.6.5-3"
+        },
+        {
+          "name": "libsoup2.4-common",
+          "installed_version": "2.74.3-10.1"
+        }
+      ],
+      "base_score": 4.3,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+      "exploitability": 2.8,
+      "impact": 1.4,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-43718",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libpoppler-cpp2",
+          "installed_version": "25.03.0-5"
+        },
+        {
+          "name": "libpoppler-glib8t64",
+          "installed_version": "25.03.0-5"
+        },
+        {
+          "name": "libpoppler147",
+          "installed_version": "25.03.0-5"
+        },
+        {
+          "name": "poppler-utils",
+          "installed_version": "25.03.0-5"
+        }
+      ],
+      "base_score": 2.9,
+      "severity": "LOW",
+      "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "exploitability": 1.4,
+      "impact": 1.4,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-4476",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libsoup-2.4-1",
+          "installed_version": "2.74.3-10.1"
+        },
+        {
+          "name": "libsoup2.4-common",
+          "installed_version": "2.74.3-10.1"
+        }
+      ],
+      "base_score": 4.3,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+      "exploitability": 2.8,
+      "impact": 1.4,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-4565",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libprotobuf-lite32t64",
+          "installed_version": "3.21.12-11"
+        },
+        {
+          "name": "libprotobuf32t64",
+          "installed_version": "3.21.12-11"
+        }
+      ],
+      "base_score": 8.2,
+      "severity": "HIGH",
+      "vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+      "exploitability": "N/A",
+      "impact": "N/A",
+      "score_version": "CVSSv4.0"
+    },
+    {
+      "cve_id": "CVE-2025-46394",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "busybox",
+          "installed_version": "1:1.37.0-6+b3"
+        }
+      ],
+      "base_score": 3.2,
+      "severity": "LOW",
+      "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:L/A:N",
+      "exploitability": 1.4,
+      "impact": 1.4,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-46421",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libsoup-2.4-1",
+          "installed_version": "2.74.3-10.1"
+        },
+        {
+          "name": "libsoup2.4-common",
+          "installed_version": "2.74.3-10.1"
+        }
+      ],
+      "base_score": 6.8,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N",
+      "exploitability": 1.6,
+      "impact": 5.2,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-48074",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libopenexr-3-1-30",
+          "installed_version": "3.1.13-2"
+        }
+      ],
+      "base_score": 4.6,
+      "severity": "MEDIUM",
+      "vector": "CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:A/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+      "exploitability": "N/A",
+      "impact": "N/A",
+      "score_version": "CVSSv4.0"
+    },
+    {
+      "cve_id": "CVE-2025-49175",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "xwayland",
+          "installed_version": "2:24.1.6-1+rpt1"
+        }
+      ],
+      "base_score": 6.1,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H",
+      "exploitability": 1.8,
+      "impact": 4.2,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-49176",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "xwayland",
+          "installed_version": "2:24.1.6-1+rpt1"
+        }
+      ],
+      "base_score": 7.3,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:H",
+      "exploitability": 1.8,
+      "impact": 5.5,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-49177",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "xwayland",
+          "installed_version": "2:24.1.6-1+rpt1"
+        }
+      ],
+      "base_score": 6.1,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:L",
+      "exploitability": 1.8,
+      "impact": 4.2,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-49178",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "xwayland",
+          "installed_version": "2:24.1.6-1+rpt1"
+        }
+      ],
+      "base_score": 5.5,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "exploitability": 1.8,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-49179",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "xwayland",
+          "installed_version": "2:24.1.6-1+rpt1"
+        }
+      ],
+      "base_score": 7.3,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H",
+      "exploitability": 1.8,
+      "impact": 5.5,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-49180",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "xwayland",
+          "installed_version": "2:24.1.6-1+rpt1"
+        }
+      ],
+      "base_score": 7.8,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "exploitability": 1.8,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-4945",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libsoup-2.4-1",
+          "installed_version": "2.74.3-10.1"
+        },
+        {
+          "name": "libsoup2.4-common",
+          "installed_version": "2.74.3-10.1"
+        }
+      ],
+      "base_score": 3.7,
+      "severity": "LOW",
+      "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
+      "exploitability": 2.2,
+      "impact": 1.4,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-4948",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libsoup-2.4-1",
+          "installed_version": "2.74.3-10.1"
+        },
+        {
+          "name": "libsoup2.4-common",
+          "installed_version": "2.74.3-10.1"
+        }
+      ],
+      "base_score": 7.5,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "exploitability": 3.9,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-4969",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libsoup-2.4-1",
+          "installed_version": "2.74.3-10.1"
+        },
+        {
+          "name": "libsoup2.4-common",
+          "installed_version": "2.74.3-10.1"
+        }
+      ],
+      "base_score": 6.5,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
+      "exploitability": 3.9,
+      "impact": 2.5,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-50420",
+      "debsecan_status": "fixed",
+      "affected_packages": [
+        {
+          "name": "libpoppler-cpp2",
+          "installed_version": "25.03.0-5"
+        },
+        {
+          "name": "libpoppler-glib8t64",
+          "installed_version": "25.03.0-5"
+        },
+        {
+          "name": "libpoppler147",
+          "installed_version": "25.03.0-5"
+        },
+        {
+          "name": "poppler-utils",
+          "installed_version": "25.03.0-5"
+        }
+      ],
+      "base_score": 6.5,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "exploitability": 2.8,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-50422",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libcairo-gobject2",
+          "installed_version": "1.18.4-1+rpt1"
+        },
+        {
+          "name": "libcairo-script-interpreter2",
+          "installed_version": "1.18.4-1+rpt1"
+        },
+        {
+          "name": "libcairo2",
+          "installed_version": "1.18.4-1+rpt1"
+        }
+      ],
+      "base_score": 2.9,
+      "severity": "LOW",
+      "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "exploitability": 1.4,
+      "impact": 1.4,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-52885",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libpoppler-cpp2",
+          "installed_version": "25.03.0-5"
+        },
+        {
+          "name": "libpoppler-glib8t64",
+          "installed_version": "25.03.0-5"
+        },
+        {
+          "name": "libpoppler147",
+          "installed_version": "25.03.0-5"
+        },
+        {
+          "name": "poppler-utils",
+          "installed_version": "25.03.0-5"
+        }
+      ],
+      "base_score": 6.1,
+      "severity": "MEDIUM",
+      "vector": "CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:U/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+      "exploitability": "N/A",
+      "impact": "N/A",
+      "score_version": "CVSSv4.0"
+    },
+    {
+      "cve_id": "CVE-2025-53905",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "vim-common",
+          "installed_version": "2:9.1.1230-2"
+        },
+        {
+          "name": "vim-tiny",
+          "installed_version": "2:9.1.1230-2"
+        }
+      ],
+      "base_score": 4.1,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:L/A:L",
+      "exploitability": 1.0,
+      "impact": 2.7,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-53906",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "vim-common",
+          "installed_version": "2:9.1.1230-2"
+        },
+        {
+          "name": "vim-tiny",
+          "installed_version": "2:9.1.1230-2"
+        }
+      ],
+      "base_score": 4.1,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:L/A:L",
+      "exploitability": 1.0,
+      "impact": 2.7,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-54764",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libmbedcrypto16",
+          "installed_version": "3.6.4-2"
+        }
+      ],
+      "base_score": 6.2,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "exploitability": 2.5,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-55188",
+      "debsecan_status": "fixed",
+      "affected_packages": [
+        {
+          "name": "7zip",
+          "installed_version": "24.09+dfsg-8"
+        }
+      ],
+      "base_score": 3.6,
+      "severity": "LOW",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:N/I:L/A:N",
+      "exploitability": 1.8,
+      "impact": 1.4,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-57812",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "cups-browsed",
+          "installed_version": "1.28.17-6"
+        },
+        {
+          "name": "cups-filters",
+          "installed_version": "1.28.17-6"
+        },
+        {
+          "name": "cups-filters-core-drivers",
+          "installed_version": "1.28.17-6"
+        },
+        {
+          "name": "libcupsfilters1t64",
+          "installed_version": "1.28.17-6"
+        },
+        {
+          "name": "libfontembed1t64",
+          "installed_version": "1.28.17-6"
+        }
+      ],
+      "base_score": 3.7,
+      "severity": "LOW",
+      "vector": "CVSS:3.1/AV:A/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N",
+      "exploitability": 1.2,
+      "impact": 2.5,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-58436",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "cups",
+          "installed_version": "2.4.10-3+deb13u1"
+        },
+        {
+          "name": "cups-client",
+          "installed_version": "2.4.10-3+deb13u1"
+        },
+        {
+          "name": "cups-common",
+          "installed_version": "2.4.10-3+deb13u1"
+        },
+        {
+          "name": "cups-core-drivers",
+          "installed_version": "2.4.10-3+deb13u1"
+        },
+        {
+          "name": "cups-daemon",
+          "installed_version": "2.4.10-3+deb13u1"
+        },
+        {
+          "name": "cups-ipp-utils",
+          "installed_version": "2.4.10-3+deb13u1"
+        },
+        {
+          "name": "cups-ppdc",
+          "installed_version": "2.4.10-3+deb13u1"
+        },
+        {
+          "name": "cups-server-common",
+          "installed_version": "2.4.10-3+deb13u1"
+        },
+        {
+          "name": "libcups2t64",
+          "installed_version": "2.4.10-3+deb13u1"
+        },
+        {
+          "name": "libcupsimage2t64",
+          "installed_version": "2.4.10-3+deb13u1"
+        }
+      ],
+      "base_score": 5.1,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "exploitability": 1.4,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-5918",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libarchive13t64",
+          "installed_version": "3.7.4-4"
+        }
+      ],
+      "base_score": 3.9,
+      "severity": "LOW",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:L",
+      "exploitability": 1.3,
+      "impact": 2.5,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-59375",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libexpat1",
+          "installed_version": "2.7.1-2"
+        },
+        {
+          "name": "libexpat1-dev",
+          "installed_version": "2.7.1-2"
+        }
+      ],
+      "base_score": 7.5,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "exploitability": 3.9,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-59438",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libmbedcrypto16",
+          "installed_version": "3.6.4-2"
+        }
+      ],
+      "base_score": 5.3,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "exploitability": 3.9,
+      "impact": 1.4,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-59529",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "avahi-daemon",
+          "installed_version": "0.8-16"
+        },
+        {
+          "name": "libavahi-client3",
+          "installed_version": "0.8-16"
+        },
+        {
+          "name": "libavahi-common-data",
+          "installed_version": "0.8-16"
+        },
+        {
+          "name": "libavahi-common3",
+          "installed_version": "0.8-16"
+        },
+        {
+          "name": "libavahi-core7",
+          "installed_version": "0.8-16"
+        },
+        {
+          "name": "libavahi-glib1",
+          "installed_version": "0.8-16"
+        }
+      ],
+      "base_score": 5.5,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "exploitability": 1.8,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-59798",
+      "debsecan_status": "fixed",
+      "affected_packages": [
+        {
+          "name": "ghostscript",
+          "installed_version": "10.05.1~dfsg-1"
+        },
+        {
+          "name": "libgs-common",
+          "installed_version": "10.05.1~dfsg-1"
+        },
+        {
+          "name": "libgs10",
+          "installed_version": "10.05.1~dfsg-1"
+        },
+        {
+          "name": "libgs10-common",
+          "installed_version": "10.05.1~dfsg-1"
+        }
+      ],
+      "base_score": 4.3,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:L/A:N",
+      "exploitability": 2.5,
+      "impact": 1.4,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-59799",
+      "debsecan_status": "fixed",
+      "affected_packages": [
+        {
+          "name": "ghostscript",
+          "installed_version": "10.05.1~dfsg-1"
+        },
+        {
+          "name": "libgs-common",
+          "installed_version": "10.05.1~dfsg-1"
+        },
+        {
+          "name": "libgs10",
+          "installed_version": "10.05.1~dfsg-1"
+        },
+        {
+          "name": "libgs10-common",
+          "installed_version": "10.05.1~dfsg-1"
+        }
+      ],
+      "base_score": 4.3,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:L/A:N",
+      "exploitability": 2.5,
+      "impact": 1.4,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-6069",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libpython3.13",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "libpython3.13-dev",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "libpython3.13-minimal",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "libpython3.13-stdlib",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "python3.13",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "python3.13-dev",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "python3.13-minimal",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "python3.13-tk",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "python3.13-venv",
+          "installed_version": "3.13.5-2"
+        }
+      ],
+      "base_score": 4.3,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
+      "exploitability": 2.8,
+      "impact": 1.4,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-6075",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libpython3.13",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "libpython3.13-dev",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "libpython3.13-minimal",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "libpython3.13-stdlib",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "python3.13",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "python3.13-dev",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "python3.13-minimal",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "python3.13-tk",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "python3.13-venv",
+          "installed_version": "3.13.5-2"
+        }
+      ],
+      "base_score": 1.8,
+      "severity": "LOW",
+      "vector": "CVSS:4.0/AV:L/AC:L/AT:P/PR:H/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+      "exploitability": "N/A",
+      "impact": "N/A",
+      "score_version": "CVSSv4.0"
+    },
+    {
+      "cve_id": "CVE-2025-60876",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "busybox",
+          "installed_version": "1:1.37.0-6+b3"
+        }
+      ],
+      "base_score": 6.5,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+      "exploitability": 3.9,
+      "impact": 2.5,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-6141",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libncurses6",
+          "installed_version": "6.5+20250216-2"
+        },
+        {
+          "name": "libncursesw6",
+          "installed_version": "6.5+20250216-2"
+        },
+        {
+          "name": "libtinfo6",
+          "installed_version": "6.5+20250216-2"
+        },
+        {
+          "name": "ncurses-base",
+          "installed_version": "6.5+20250216-2"
+        },
+        {
+          "name": "ncurses-bin",
+          "installed_version": "6.5+20250216-2"
+        },
+        {
+          "name": "ncurses-term",
+          "installed_version": "6.5+20250216-2"
+        }
+      ],
+      "base_score": 4.8,
+      "severity": "MEDIUM",
+      "vector": "CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+      "exploitability": "N/A",
+      "impact": "N/A",
+      "score_version": "CVSSv4.0"
+    },
+    {
+      "cve_id": "CVE-2025-61915",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "cups",
+          "installed_version": "2.4.10-3+deb13u1"
+        },
+        {
+          "name": "cups-client",
+          "installed_version": "2.4.10-3+deb13u1"
+        },
+        {
+          "name": "cups-common",
+          "installed_version": "2.4.10-3+deb13u1"
+        },
+        {
+          "name": "cups-core-drivers",
+          "installed_version": "2.4.10-3+deb13u1"
+        },
+        {
+          "name": "cups-daemon",
+          "installed_version": "2.4.10-3+deb13u1"
+        },
+        {
+          "name": "cups-ipp-utils",
+          "installed_version": "2.4.10-3+deb13u1"
+        },
+        {
+          "name": "cups-ppdc",
+          "installed_version": "2.4.10-3+deb13u1"
+        },
+        {
+          "name": "cups-server-common",
+          "installed_version": "2.4.10-3+deb13u1"
+        },
+        {
+          "name": "libcups2t64",
+          "installed_version": "2.4.10-3+deb13u1"
+        },
+        {
+          "name": "libcupsimage2t64",
+          "installed_version": "2.4.10-3+deb13u1"
+        }
+      ],
+      "base_score": 6.0,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:N/I:N/A:H",
+      "exploitability": 1.5,
+      "impact": 4.0,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-61984",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "openssh-client",
+          "installed_version": "1:10.0p1-7"
+        },
+        {
+          "name": "openssh-server",
+          "installed_version": "1:10.0p1-7"
+        },
+        {
+          "name": "openssh-sftp-server",
+          "installed_version": "1:10.0p1-7"
+        },
+        {
+          "name": "ssh",
+          "installed_version": "1:10.0p1-7"
+        }
+      ],
+      "base_score": 3.6,
+      "severity": "LOW",
+      "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N",
+      "exploitability": 1.0,
+      "impact": 2.5,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-61985",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "openssh-client",
+          "installed_version": "1:10.0p1-7"
+        },
+        {
+          "name": "openssh-server",
+          "installed_version": "1:10.0p1-7"
+        },
+        {
+          "name": "openssh-sftp-server",
+          "installed_version": "1:10.0p1-7"
+        },
+        {
+          "name": "ssh",
+          "installed_version": "1:10.0p1-7"
+        }
+      ],
+      "base_score": 3.6,
+      "severity": "LOW",
+      "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N",
+      "exploitability": 1.0,
+      "impact": 2.5,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-62171",
+      "debsecan_status": "fixed",
+      "affected_packages": [
+        {
+          "name": "imagemagick-7-common",
+          "installed_version": "8:7.1.1.43+dfsg1-1+deb13u2"
+        },
+        {
+          "name": "libmagickcore-7.q16-10",
+          "installed_version": "8:7.1.1.43+dfsg1-1+deb13u2"
+        },
+        {
+          "name": "libmagickcore-7.q16-10-extra",
+          "installed_version": "8:7.1.1.43+dfsg1-1+deb13u2"
+        },
+        {
+          "name": "libmagickwand-7.q16-10",
+          "installed_version": "8:7.1.1.43+dfsg1-1+deb13u2"
+        }
+      ],
+      "base_score": 5.9,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "exploitability": 2.2,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-62229",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "xserver-common",
+          "installed_version": "2:21.1.16-1.3+rpt1"
+        },
+        {
+          "name": "xserver-xorg-core",
+          "installed_version": "2:21.1.16-1.3+rpt1"
+        },
+        {
+          "name": "xwayland",
+          "installed_version": "2:24.1.6-1+rpt1"
+        }
+      ],
+      "base_score": 7.3,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:H",
+      "exploitability": 1.8,
+      "impact": 5.5,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-62230",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "xserver-common",
+          "installed_version": "2:21.1.16-1.3+rpt1"
+        },
+        {
+          "name": "xserver-xorg-core",
+          "installed_version": "2:21.1.16-1.3+rpt1"
+        },
+        {
+          "name": "xwayland",
+          "installed_version": "2:24.1.6-1+rpt1"
+        }
+      ],
+      "base_score": 7.3,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H",
+      "exploitability": 1.8,
+      "impact": 5.5,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-62231",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "xserver-common",
+          "installed_version": "2:21.1.16-1.3+rpt1"
+        },
+        {
+          "name": "xserver-xorg-core",
+          "installed_version": "2:21.1.16-1.3+rpt1"
+        },
+        {
+          "name": "xwayland",
+          "installed_version": "2:24.1.6-1+rpt1"
+        }
+      ],
+      "base_score": 7.3,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H",
+      "exploitability": 1.8,
+      "impact": 5.5,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-64503",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "cups-browsed",
+          "installed_version": "1.28.17-6"
+        },
+        {
+          "name": "cups-filters",
+          "installed_version": "1.28.17-6"
+        },
+        {
+          "name": "cups-filters-core-drivers",
+          "installed_version": "1.28.17-6"
+        },
+        {
+          "name": "libcupsfilters1t64",
+          "installed_version": "1.28.17-6"
+        },
+        {
+          "name": "libfontembed1t64",
+          "installed_version": "1.28.17-6"
+        }
+      ],
+      "base_score": 4.0,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "exploitability": 2.5,
+      "impact": 1.4,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-64505",
+      "debsecan_status": "fixed",
+      "affected_packages": [
+        {
+          "name": "libpng16-16t64",
+          "installed_version": "1.6.48-1"
+        }
+      ],
+      "base_score": 6.1,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H",
+      "exploitability": 1.8,
+      "impact": 4.2,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-64506",
+      "debsecan_status": "fixed",
+      "affected_packages": [
+        {
+          "name": "libpng16-16t64",
+          "installed_version": "1.6.48-1"
+        }
+      ],
+      "base_score": 6.1,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H",
+      "exploitability": 1.8,
+      "impact": 4.2,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-64524",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "cups-browsed",
+          "installed_version": "1.28.17-6"
+        },
+        {
+          "name": "cups-filters",
+          "installed_version": "1.28.17-6"
+        },
+        {
+          "name": "cups-filters-core-drivers",
+          "installed_version": "1.28.17-6"
+        },
+        {
+          "name": "libcupsfilters1t64",
+          "installed_version": "1.28.17-6"
+        },
+        {
+          "name": "libfontembed1t64",
+          "installed_version": "1.28.17-6"
+        }
+      ],
+      "base_score": 3.3,
+      "severity": "LOW",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
+      "exploitability": 1.8,
+      "impact": 1.4,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-64720",
+      "debsecan_status": "fixed",
+      "affected_packages": [
+        {
+          "name": "libpng16-16t64",
+          "installed_version": "1.6.48-1"
+        }
+      ],
+      "base_score": 7.1,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H",
+      "exploitability": 2.8,
+      "impact": 4.2,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-65018",
+      "debsecan_status": "fixed",
+      "affected_packages": [
+        {
+          "name": "libpng16-16t64",
+          "installed_version": "1.6.48-1"
+        }
+      ],
+      "base_score": 7.1,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H",
+      "exploitability": 1.8,
+      "impact": 5.2,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-65404",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libbasicusageenvironment2",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "libgroupsock30",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "liblivemedia116",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "libusageenvironment3",
+          "installed_version": "2025.05.24-1"
+        }
+      ],
+      "base_score": 6.5,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "exploitability": 2.8,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-65405",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libbasicusageenvironment2",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "libgroupsock30",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "liblivemedia116",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "libusageenvironment3",
+          "installed_version": "2025.05.24-1"
+        }
+      ],
+      "base_score": 6.5,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "exploitability": 2.8,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-65406",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libbasicusageenvironment2",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "libgroupsock30",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "liblivemedia116",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "libusageenvironment3",
+          "installed_version": "2025.05.24-1"
+        }
+      ],
+      "base_score": 6.5,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "exploitability": 2.8,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-65407",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libbasicusageenvironment2",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "libgroupsock30",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "liblivemedia116",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "libusageenvironment3",
+          "installed_version": "2025.05.24-1"
+        }
+      ],
+      "base_score": 6.5,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "exploitability": 2.8,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-65408",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libbasicusageenvironment2",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "libgroupsock30",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "liblivemedia116",
+          "installed_version": "2025.05.24-1"
+        },
+        {
+          "name": "libusageenvironment3",
+          "installed_version": "2025.05.24-1"
+        }
+      ],
+      "base_score": 6.5,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "exploitability": 2.8,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-65955",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "imagemagick-7-common",
+          "installed_version": "8:7.1.1.43+dfsg1-1+deb13u2"
+        },
+        {
+          "name": "libmagickcore-7.q16-10",
+          "installed_version": "8:7.1.1.43+dfsg1-1+deb13u2"
+        },
+        {
+          "name": "libmagickcore-7.q16-10-extra",
+          "installed_version": "8:7.1.1.43+dfsg1-1+deb13u2"
+        },
+        {
+          "name": "libmagickwand-7.q16-10",
+          "installed_version": "8:7.1.1.43+dfsg1-1+deb13u2"
+        }
+      ],
+      "base_score": 4.9,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
+      "exploitability": 1.4,
+      "impact": 3.4,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-66293",
+      "debsecan_status": "fixed",
+      "affected_packages": [
+        {
+          "name": "libpng16-16t64",
+          "installed_version": "1.6.48-1"
+        }
+      ],
+      "base_score": 7.1,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H",
+      "exploitability": 2.8,
+      "impact": 4.2,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-66382",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libexpat1",
+          "installed_version": "2.7.1-2"
+        },
+        {
+          "name": "libexpat1-dev",
+          "installed_version": "2.7.1-2"
+        }
+      ],
+      "base_score": 2.9,
+      "severity": "LOW",
+      "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "exploitability": 1.4,
+      "impact": 1.4,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-66418",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "python3-urllib3",
+          "installed_version": "2.3.0-3"
+        }
+      ],
+      "base_score": 8.9,
+      "severity": "HIGH",
+      "vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:H/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+      "exploitability": "N/A",
+      "impact": "N/A",
+      "score_version": "CVSSv4.0"
+    },
+    {
+      "cve_id": "CVE-2025-66471",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "python3-urllib3",
+          "installed_version": "2.3.0-3"
+        }
+      ],
+      "base_score": 8.9,
+      "severity": "HIGH",
+      "vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:H/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+      "exploitability": "N/A",
+      "impact": "N/A",
+      "score_version": "CVSSv4.0"
+    },
+    {
+      "cve_id": "CVE-2025-66628",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "imagemagick-7-common",
+          "installed_version": "8:7.1.1.43+dfsg1-1+deb13u2"
+        },
+        {
+          "name": "libmagickcore-7.q16-10",
+          "installed_version": "8:7.1.1.43+dfsg1-1+deb13u2"
+        },
+        {
+          "name": "libmagickcore-7.q16-10-extra",
+          "installed_version": "8:7.1.1.43+dfsg1-1+deb13u2"
+        },
+        {
+          "name": "libmagickwand-7.q16-10",
+          "installed_version": "8:7.1.1.43+dfsg1-1+deb13u2"
+        }
+      ],
+      "base_score": 7.5,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "exploitability": 3.9,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-67873",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libcapstone5",
+          "installed_version": "5.0.6-1"
+        }
+      ],
+      "base_score": 4.8,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:L",
+      "exploitability": 1.3,
+      "impact": 3.4,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-68114",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libcapstone5",
+          "installed_version": "5.0.6-1"
+        }
+      ],
+      "base_score": 4.8,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:L",
+      "exploitability": 1.3,
+      "impact": 3.4,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-68615",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libsnmp-base",
+          "installed_version": "5.9.4+dfsg-2"
+        },
+        {
+          "name": "libsnmp40t64",
+          "installed_version": "5.9.4+dfsg-2"
+        }
+      ],
+      "base_score": 9.8,
+      "severity": "CRITICAL",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "exploitability": 3.9,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-68972",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "dirmngr",
+          "installed_version": "2.4.7-21+b3"
+        },
+        {
+          "name": "gnupg",
+          "installed_version": "2.4.7-21"
+        },
+        {
+          "name": "gnupg-l10n",
+          "installed_version": "2.4.7-21"
+        },
+        {
+          "name": "gnupg-utils",
+          "installed_version": "2.4.7-21+b3"
+        },
+        {
+          "name": "gpg",
+          "installed_version": "2.4.7-21+b3"
+        },
+        {
+          "name": "gpg-agent",
+          "installed_version": "2.4.7-21+b3"
+        },
+        {
+          "name": "gpg-wks-client",
+          "installed_version": "2.4.7-21+b3"
+        },
+        {
+          "name": "gpgconf",
+          "installed_version": "2.4.7-21+b3"
+        },
+        {
+          "name": "gpgsm",
+          "installed_version": "2.4.7-21+b3"
+        },
+        {
+          "name": "gpgv",
+          "installed_version": "2.4.7-21+b3"
+        }
+      ],
+      "base_score": 5.9,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:N",
+      "exploitability": 1.4,
+      "impact": 4.0,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-6966",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "python-apt-common",
+          "installed_version": "3.0.0"
+        },
+        {
+          "name": "python3-apt",
+          "installed_version": "3.0.0"
+        }
+      ],
+      "base_score": 6.9,
+      "severity": "MEDIUM",
+      "vector": "CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+      "exploitability": "N/A",
+      "impact": "N/A",
+      "score_version": "CVSSv4.0"
+    },
+    {
+      "cve_id": "CVE-2025-7425",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libxslt1.1",
+          "installed_version": "1.1.35-1.2+deb13u2"
+        }
+      ],
+      "base_score": 7.8,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:H",
+      "exploitability": 1.4,
+      "impact": 5.8,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-7462",
+      "debsecan_status": "fixed",
+      "affected_packages": [
+        {
+          "name": "ghostscript",
+          "installed_version": "10.05.1~dfsg-1"
+        },
+        {
+          "name": "libgs-common",
+          "installed_version": "10.05.1~dfsg-1"
+        },
+        {
+          "name": "libgs10",
+          "installed_version": "10.05.1~dfsg-1"
+        },
+        {
+          "name": "libgs10-common",
+          "installed_version": "10.05.1~dfsg-1"
+        }
+      ],
+      "base_score": 5.3,
+      "severity": "MEDIUM",
+      "vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+      "exploitability": "N/A",
+      "impact": "N/A",
+      "score_version": "CVSSv4.0"
+    },
+    {
+      "cve_id": "CVE-2025-8114",
+      "debsecan_status": "fixed",
+      "affected_packages": [
+        {
+          "name": "libssh-4",
+          "installed_version": "0.11.2-1"
+        }
+      ],
+      "base_score": 4.7,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "exploitability": 1.0,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-8194",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libpython3.13",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "libpython3.13-dev",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "libpython3.13-minimal",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "libpython3.13-stdlib",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "python3.13",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "python3.13-dev",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "python3.13-minimal",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "python3.13-tk",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "python3.13-venv",
+          "installed_version": "3.13.5-2"
+        }
+      ],
+      "base_score": 7.5,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "exploitability": 3.9,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-8277",
+      "debsecan_status": "fixed",
+      "affected_packages": [
+        {
+          "name": "libssh-4",
+          "installed_version": "0.11.2-1"
+        }
+      ],
+      "base_score": 3.1,
+      "severity": "LOW",
+      "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L",
+      "exploitability": 1.6,
+      "impact": 1.4,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-8291",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libpython3.13",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "libpython3.13-dev",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "libpython3.13-minimal",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "libpython3.13-stdlib",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "python3.13",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "python3.13-dev",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "python3.13-minimal",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "python3.13-tk",
+          "installed_version": "3.13.5-2"
+        },
+        {
+          "name": "python3.13-venv",
+          "installed_version": "3.13.5-2"
+        }
+      ],
+      "base_score": 4.3,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+      "exploitability": 2.8,
+      "impact": 1.4,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-8869",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "python3-pip",
+          "installed_version": "25.1.1+dfsg-1"
+        },
+        {
+          "name": "python3-pip-whl",
+          "installed_version": "25.1.1+dfsg-1"
+        }
+      ],
+      "base_score": 5.9,
+      "severity": "MEDIUM",
+      "vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:A/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+      "exploitability": "N/A",
+      "impact": "N/A",
+      "score_version": "CVSSv4.0"
+    },
+    {
+      "cve_id": "CVE-2025-8941",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libpam-modules",
+          "installed_version": "1.7.0-5"
+        },
+        {
+          "name": "libpam-modules-bin",
+          "installed_version": "1.7.0-5"
+        },
+        {
+          "name": "libpam-runtime",
+          "installed_version": "1.7.0-5"
+        },
+        {
+          "name": "libpam0g",
+          "installed_version": "1.7.0-5"
+        }
+      ],
+      "base_score": 7.8,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "exploitability": 1.8,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-9086",
+      "debsecan_status": "fixed",
+      "affected_packages": [
+        {
+          "name": "curl",
+          "installed_version": "8.14.1-2"
+        },
+        {
+          "name": "libcurl3t64-gnutls",
+          "installed_version": "8.14.1-2"
+        },
+        {
+          "name": "libcurl4t64",
+          "installed_version": "8.14.1-2"
+        }
+      ],
+      "base_score": 7.5,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "exploitability": 3.9,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-9230",
+      "debsecan_status": "fixed",
+      "affected_packages": [
+        {
+          "name": "libssl3t64",
+          "installed_version": "3.5.1-1+~rpt1"
+        },
+        {
+          "name": "openssl",
+          "installed_version": "3.5.1-1+~rpt1"
+        },
+        {
+          "name": "openssl-provider-legacy",
+          "installed_version": "3.5.1-1+~rpt1"
+        }
+      ],
+      "base_score": 7.5,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "exploitability": 3.9,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-9640",
+      "debsecan_status": "fixed",
+      "affected_packages": [
+        {
+          "name": "libldb2",
+          "installed_version": "2:2.11.0+samba4.22.4+dfsg-1~deb13u1"
+        },
+        {
+          "name": "libsmbclient0",
+          "installed_version": "2:4.22.4+dfsg-1~deb13u1"
+        },
+        {
+          "name": "libtalloc2",
+          "installed_version": "2:2.4.3+samba4.22.4+dfsg-1~deb13u1"
+        },
+        {
+          "name": "libtdb1",
+          "installed_version": "2:1.4.13+samba4.22.4+dfsg-1~deb13u1"
+        },
+        {
+          "name": "libtevent0t64",
+          "installed_version": "2:0.16.2+samba4.22.4+dfsg-1~deb13u1"
+        },
+        {
+          "name": "libwbclient0",
+          "installed_version": "2:4.22.4+dfsg-1~deb13u1"
+        },
+        {
+          "name": "samba-libs",
+          "installed_version": "2:4.22.4+dfsg-1~deb13u1"
+        }
+      ],
+      "base_score": 4.3,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+      "exploitability": 2.8,
+      "impact": 1.4,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-9714",
+      "debsecan_status": "fixed",
+      "affected_packages": [
+        {
+          "name": "libxml2",
+          "installed_version": "2.12.7+dfsg+really2.9.14-2.1+deb13u1"
+        }
+      ],
+      "base_score": 6.2,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "exploitability": 2.5,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-9900",
+      "debsecan_status": "fixed",
+      "affected_packages": [
+        {
+          "name": "libtiff6",
+          "installed_version": "4.7.0-3"
+        }
+      ],
+      "base_score": 8.8,
+      "severity": "HIGH",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "exploitability": 2.8,
+      "impact": 5.9,
+      "score_version": "CVSSv3.1"
+    },
+    {
+      "cve_id": "CVE-2025-9901",
+      "debsecan_status": "unknown",
+      "affected_packages": [
+        {
+          "name": "libsoup-2.4-1",
+          "installed_version": "2.74.3-10.1"
+        },
+        {
+          "name": "libsoup-3.0-0",
+          "installed_version": "3.6.5-3"
+        },
+        {
+          "name": "libsoup-3.0-common",
+          "installed_version": "3.6.5-3"
+        },
+        {
+          "name": "libsoup2.4-common",
+          "installed_version": "2.74.3-10.1"
+        }
+      ],
+      "base_score": 5.9,
+      "severity": "MEDIUM",
+      "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "exploitability": 2.2,
+      "impact": 3.6,
+      "score_version": "CVSSv3.1"
+    }
+  ],
+  "summary": {
+    "threshold_cvss": 0.0,
+    "matched_cvss_ge_threshold": 211,
+    "cvss_versions_used": {
+      "v4.0": 17,
+      "v3.1": 189,
+      "v2": 5
+    },
+    "no_cvss_metrics": 12,
+    "parse_errors": 0,
+    "total_cves_seen": 223,
+    "total_records_output": 211
+  }
+}
