@@ -1,0 +1,20 @@
+version: "3.9"
+
+services:
+  backend:
+    build: .
+    container_name: backend
+    image: debian-cve-backend
+    ports:
+      - "8088:8088"
+    environment:
+      NVD_API_KEY: ""
+      CVE_API_TOKEN: ""
+      CVE_CACHE_ENABLED: 1
+      CVE_CACHE_PATH: /cache/nvd_cache.json
+      CVE_CACHE_TTL: 86400
+    volumes:
+      - cve_cache:/cache
+
+volumes:
+  cve_cache:
