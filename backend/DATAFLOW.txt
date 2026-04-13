@@ -1,0 +1,185 @@
+==================================================================================
+  CVE Scan API — backend/  diagram przeplywu danych
+==================================================================================
+
+
+ [A] PRZEPŁYW ŻĄDANIA  POST /scan
+ ─────────────────────────────────────────────────────────────────────────────────
+
+    żądanie (w dół)                                 odpowiedź (w górę)
+    ──────────────                                  ─────────────────
+
+                        +----------------------------------+
+                        |          Klient HTTP(S)          |
+                        +-------------+----------^---------+
+                                      |          |
+     POST /scan { host,user,pwd,... } |          | 200 OK
+                               HTTPS  |          | { platform,
+                                      |          |   vulnerabilities,
+                                      |          |   summary }
+                        +-------------v----------+---------+
+                        |    nginx  (reverse proxy)        |
+                        |  - TLS termination HTTPS -> HTTP |
+                        |  - limit_req 2r/s, burst=10      |
+                        |  - proxy_read_timeout 600s       |
+                        |  - X-Request-Id (generowany)     |
+                        +-------------+----------^---------+
+                                      |          |
+               HTTP (127.0.0.1:8088)  |          | HTTP 200 OK JSON
+                           lokalnie   |          |
+                        +-------------v----------+---------+
+                        |       api_server.py              |
+                        |   APIServer / _HTTPHandler       |
+                        |                                  |
+                        |  1. _require_token()             |
+                        |     [hmac.compare_digest]        |
+                        |  2. _read_json()                 |
+                        |     [Content-Length limit]       |
+                        |  3. ScanRequest(host,user,...)   |<--- models.py
+                        |  4. scan_service.run(req)        |
+                        |  5. _send_json(200, payload)     |
+                        +-------------+----------^---------+
+                                      |          |
+              run(ScanRequest)        |          | Dict
+                                      |          | { platform,
+                                      |          |   vulns,
+                                      |          |   summary }
+                        +-------------v----------+---------+
+                        |       scan_service.py            |
+                        |         ScanService              |
+                        |                                  |
+                        |  1. get_platform_info()          |
+                        |  2. get_findings()               |
+                        |  3. fetch_cvss(cve_id) x N       |
+                        |  4. _build_vuln_record()         |
+                        |  5. filtr wg req.vuln_score      |
+                        |  6. build_payload()              |<--- output_formatter.py
+                        +---+---------+------^------+--^---+
+                            |         |      |      |  |
+  get_platform_info()       |         |      |      |  | fetch_cvss(cve_id)
+  get_findings()            |         +------+      |  |
+                            |    platform info      |  |
+                            |    + findings map     |  | { base_score,
+                            |                       |  |   severity,
+                            |                       |  |   vector, ... }
+          +-----------------v---------+   +---------+--v-------------------+
+          |    platform_connector.py  |   |       vulndb_client.py         |
+          |      PlatformConnector    |   |    VulnerabilityDBClient       |
+          |                           |   |                                |
+          |  get_platform_info():     |   |  fetch_cvss(cve_id):           |
+          |    hostname / FQDN / IP   |   |   1. sprawdz FileTTLCache      |
+          |    /etc/os-release        |   |   2. jesli brak -> GET NVD     |
+          |                           |   |   3. wybor CVSSv4.0/v3.1/v2    |
+          |  get_findings():          |   |   4. _cvssv2_severity()        |
+          |    debsecan --format      |   |   5. cache.set(cve_id, result) |
+          |      detail               |   |                                |
+          |  parse_debsecan_detail()  |   +--------+----------+------------+
+          |  [regex, dedup pakietow]  |            |          |
+          +----------+----------^----+      cache  |          | cache miss
+                     |          |           get/set|          | -> HTTP GET
+          SSH cmd    |          | stdout           |          |
+          sshpass    |          | (hostname,       |          |
+                     |          |  FQDN, IP,       v          v
+          +----------v----------+          +------------+  +----------------+
+          |      Debian Host     |          |  cache.py  |  | NVD API (HTTPS)|
+          |                      |          | FileTTLCache|  |                |
+          |  sshpass + ssh       |          |            |  | services.nvd.  |
+          |  StrictHostCheck=no  |          | plik JSON  |  | nist.gov/rest/ |
+          |  SSHPASS= w ENV      |          | TTL wpisow |  | json/cves/2.0  |
+          |  /etc/os-release     |          | RLock      |  |                |
+          |  debsecan installed  |          | atomowy    |  | zwraca CVSS    |
+          |                      |          |   .tmp+mv  |  | JSON dla CVE   |
+          +----------+-----------+          +-----+------+  +-------+--------+
+                      |                         |                  |
+                      ^ stdout:                 ^ cache hit:       ^ cache miss:
+                      | hostname,               | zwraca           | CVSS JSON
+                      | debsecan                | wartosc          | -> cache.set
+                      | output                  | lub None         | -> zwraca
+
+
+ [B] INICJALIZACJA (main.py startup)
+ ─────────────────────────────────────────────────────────────────────────────────
+
+  +--------------------------------------------------------------------------+
+  |                              main.py                                     |
+  |                                                                          |
+  |  argparse                                                                |
+  |    --listen (nadpisuje CVE_LISTEN)                                       |
+  |    --port   (nadpisuje CVE_PORT)                                         |
+  |        |                                                                 |
+  |        v                                                                 |
+  |  AppConfig.from_env(listen, port)  ------>  setup_logging(cfg)          |
+  |        |                                    [root logger, formatter,     |
+  |        |                                     RequestIdFilter]            |
+  |        |                                                                 |
+  |        +---> FileTTLCache(path, ttl, enabled)                           |
+  |        |         (lazy-load pliku JSON przy pierwszym get/set)          |
+  |        |                   |                                             |
+  |        +---> OutputFormatter()                                          |
+  |        |         |                                                       |
+  |        +---+-----+--> ScanService(formatter, cfg, cache)               |
+  |            |                        |                                    |
+  |            |               APIServer(cfg, scan_service)                 |
+  |            |                        |                                    |
+  |            |               server.serve_forever()                       |
+  |            |               [ThreadingHTTPServer]                        |
+  |            |                                                             |
+  |            cfg wstrzykiwany do: ScanService, APIServer, FileTTLCache,   |
+  |            VulnerabilityDBClient, PlatformConnector (przez ScanService) |
+  +--------------------------------------------------------------------------+
+
+
+ [C] MODUŁY WSPIERAJĄCE (używane przez wszystkie warstwy)
+ ─────────────────────────────────────────────────────────────────────────────────
+
+  +--------------+   +------------------+   +-----------------+
+  | constants.py |   |    config.py     |   |   logging.py    |
+  |              |   |                  |   |                 |
+  | Nazwy ENV:   +-->| AppConfig        |   | setup_logging() |
+  |  NVD_API_KEY |   | (frozen DC)      |   | JsonFormatter   |
+  |  CVE_PORT    |   |                  |   |  {"ts","level", |
+  |  CVE_LISTEN  |   | from_env():      |   |   "msg","rid"}  |
+  |  CVE_CACHE_* |   |  _env_bool()     |   | RequestIdFilter |
+  |  CVE_LOG_*   |   |  _env_int()      |   |  [ContextVar    |
+  |              |   |                  |   |   per watek]    |
+  | Domyslne:    |   | validate():      |   | get_logger()    |
+  |  port 8088   |   |  zakres portu    |   |                 |
+  |  ttl 86400   |   |  timeout > 0     |   +-----------------+
+  |  127.0.0.1   |   |  ttl >= 0        |
+  |              |   |                  |
+  | PATH_HEALTH  |   +------------------+
+  | PATH_SCAN    |
+  | NVD_BASE_URL |
+  +--------------+
+
+  +-----------------+   +------------------------+   +------------------+
+  |    models.py    |   |   output_formatter.py  |   |    errors.py     |
+  |                 |   |                        |   |                  |
+  | ScanRequest     |   | OutputFormatter        |   | CVEAPIError      |
+  |  host     str   |   |                        |   |  +- BadRequest   |
+  |  user     str   |   | build_payload(         |   |  +- Unauthorized |
+  |  password str   |   |   platform,    dict    |   |  +- PlatformError|
+  |  suite    str   |   |   vulns,       list    |   |  |  +- SSHCmd    |
+  |  proxy    str?  |   |   summary      dict    |   |  |  +- Debsecan  |
+  |  api_key  str?  |   | ):                     |   |  +- VulnDBError  |
+  |  vuln_score flt |   |   -> {"platform":...,  |   |  |  +- NVDApi    |
+  |  show_unscored  |   |       "vulnerabilities"|   |  +- CacheError   |
+  |           bool  |   |       "summary":...}   |   |                  |
+  +-----------------+   +------------------------+   +------------------+
+
+
+ [D] SCHEMAT REKORDU PODATNOŚCI  (każdy wpis w "vulnerabilities" ma te same pola)
+ ─────────────────────────────────────────────────────────────────────────────────
+
+  debsecan                   NVD API                   scan_service.py
+  (platform_connector)       (vulndb_client)           (_build_vuln_record)
+  ┌──────────────────┐       ┌──────────────────┐
+  │ cve_id           │       │ base_score       │
+  │ debsecan_status  │  +    │ severity         │  ==>  jednolity rekord JSON
+  │ affected_packages│       │ vector           │       z polem error: null
+  └──────────────────┘       │ exploitability   │       lub error: "komunikat"
+                             │ impact           │       gdy brak danych CVSS
+                             │ score_version    │
+                             └──────────────────┘
+
+==================================================================================

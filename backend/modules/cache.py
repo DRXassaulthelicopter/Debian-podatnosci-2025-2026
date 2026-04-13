@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+"""Plikowy cache TTL oparty na JSON, bezpieczny wątkowo."""
+
 from __future__ import annotations
 
 import json
@@ -11,14 +13,31 @@ from .errors import CacheError
 
 
 class FileTTLCache:
+    """Plikowy cache z wygasaniem wpisów (TTL), przechowujący dane w JSON.
+
+    Struktura pliku cache::
+
+        {
+          "CVE-2024-1234": {"expires_at": 1730000000, "value": {...}},
+          ...
+        }
+
+    ``expires_at`` to timestamp UNIX (int).  Wartość ``0`` oznacza brak wygaśnięcia.
+
+    Operacje ``get`` i ``set`` są chronione ``threading.RLock``, więc instancja
+    jest bezpieczna przy współbieżnym dostępie z wielu wątków (np. ThreadingHTTPServer).
+
+    Plik jest ładowany leniwie (lazy-load) przy pierwszym dostępie, co pozwala
+    tworzyć instancję przed sprawdzeniem uprawnień do pliku.
+
+    Attributes:
+        path:        Ścieżka do pliku JSON cache.
+        ttl_seconds: Domyślny czas życia wpisu w sekundach (0 = bez wygaśnięcia).
+        enabled:     Czy cache jest aktywny.  ``False`` sprawia, że wszystkie
+                     operacje są no-op (``get`` zwraca ``None``, ``set`` ignorowany).
     """
-    Plikowy cache TTL (JSON):
-    {
-      "CVE-xxxx-xxxx": {"expires_at": 1730000000, "value": {...}},
-      ...
-    }
-    """
-    def __init__(self, path: str, ttl_seconds: int, enabled: bool = True):
+
+    def __init__(self, path: str, ttl_seconds: int, enabled: bool = True) -> None:
         self.path = path
         self.ttl_seconds = int(ttl_seconds)
         self.enabled = enabled
@@ -27,9 +46,15 @@ class FileTTLCache:
         self._loaded = False
 
     def _now(self) -> int:
+        """Zwraca bieżący czas jako timestamp UNIX (int)."""
         return int(time.time())
 
     def _load_if_needed(self) -> None:
+        """Wczytuje plik cache przy pierwszym dostępie (double-checked locking).
+
+        Raises:
+            CacheError: Jeśli plik istnieje, ale nie można go odczytać lub sparsować.
+        """
         if self._loaded:
             return
         with self._lock:
@@ -55,6 +80,11 @@ class FileTTLCache:
                 raise CacheError(f"Nie udało się wczytać cache: {e}", cause=e)
 
     def _save(self) -> None:
+        """Zapisuje stan cache do pliku atomowo (zapis do .tmp + rename).
+
+        Raises:
+            CacheError: Jeśli zapis lub rename się nie powiodły.
+        """
         if not self.enabled:
             return
         tmp = f"{self.path}.tmp"
@@ -67,6 +97,7 @@ class FileTTLCache:
             raise CacheError(f"Nie udało się zapisać cache: {e}", cause=e)
 
     def prune(self) -> None:
+        """Usuwa z pamięci i z pliku wszystkie wygasłe wpisy."""
         self._load_if_needed()
         if not self.enabled:
             return
@@ -85,6 +116,16 @@ class FileTTLCache:
                 self._save()
 
     def get(self, key: str) -> Optional[Any]:
+        """Zwraca wartość dla klucza lub ``None``, jeśli wpis nie istnieje / wygasł.
+
+        Wygasłe wpisy są usuwane z pamięci i pliku przy okazji odczytu.
+
+        Args:
+            key: Klucz wpisu (np. identyfikator CVE).
+
+        Returns:
+            Przechowana wartość lub ``None``.
+        """
         self._load_if_needed()
         if not self.enabled:
             return None
@@ -104,6 +145,17 @@ class FileTTLCache:
             return entry.get("value")
 
     def set(self, key: str, value: Any, ttl_seconds: Optional[int] = None) -> None:
+        """Zapisuje wartość pod kluczem z opcjonalnym własnym TTL.
+
+        Args:
+            key:         Klucz wpisu.
+            value:       Wartość do przechowania (musi być serializowalna do JSON).
+            ttl_seconds: Czas życia wpisu w sekundach.  ``None`` używa domyślnego TTL
+                         instancji.  ``0`` oznacza brak wygaśnięcia.
+
+        Raises:
+            CacheError: Jeśli zapis do pliku się nie powiódł.
+        """
         self._load_if_needed()
         if not self.enabled:
             return
