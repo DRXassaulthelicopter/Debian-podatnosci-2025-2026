@@ -1,0 +1,13 @@
+# Pliki środowiskowe z sekretami — nigdy nie commituj z prawdziwymi wartościami
+*.env
+!dotfiles/scanner.env
+!backend/modules/scanner.env
+
+# Cache NVD
+nvd_cache.json
+*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/

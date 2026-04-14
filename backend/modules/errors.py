@@ -1,41 +1,51 @@
 # -*- coding: utf-8 -*-
+"""Hierarchia wyjątków aplikacji CVE Scan API."""
+
 from typing import Optional
 
 
 class CVEAPIError(Exception):
-    """Bazowy wyjątek aplikacji."""
-    def __init__(self, message: str, *, cause: Optional[BaseException] = None):
+    """Bazowy wyjątek aplikacji.
+
+    Wszystkie wyjątki domenowe dziedziczą po tej klasie,
+    co pozwala na jedną klauzulę ``except CVEAPIError`` tam gdzie potrzeba.
+
+    Attributes:
+        cause: Oryginalny wyjątek, który spowodował ten błąd (jeśli dostępny).
+    """
+
+    def __init__(self, message: str, *, cause: Optional[BaseException] = None) -> None:
         super().__init__(message)
         self.cause = cause
 
 
 class BadRequestError(CVEAPIError):
-    """400 - błędne dane wejściowe."""
+    """400 — niepoprawne lub niekompletne dane wejściowe żądania."""
 
 
 class UnauthorizedError(CVEAPIError):
-    """401 - brak autoryzacji."""
+    """401 — brak lub nieprawidłowy token autoryzacyjny."""
 
 
 class PlatformError(CVEAPIError):
-    """Błędy platformy (SSH/debsecan)."""
+    """Błędy warstwy platformy (SSH / debsecan)."""
 
 
 class SSHCommandError(PlatformError):
-    """SSH / uruchamianie komend zdalnych."""
+    """Nie udało się uruchomić sshpass/ssh lub połączyć z hostem."""
 
 
 class DebsecanError(PlatformError):
-    """Debsecan nie działa / błąd wykonania / dziwny output."""
+    """Debsecan zwrócił błąd, nie uruchomił się lub jego output jest nieprawidłowy."""
 
 
 class VulnerabilityDBError(CVEAPIError):
-    """Błędy bazy podatności (NVD)."""
+    """Błędy komunikacji z bazą podatności (NVD)."""
 
 
 class NVDAPIError(VulnerabilityDBError):
-    """Błąd zapytań/odpowiedzi NVD."""
+    """Błąd żądania HTTP do NVD API lub parsowania odpowiedzi."""
 
 
 class CacheError(CVEAPIError):
-    """Błędy cache (IO/format)."""
+    """Błąd operacji cache (odczyt/zapis pliku lub nieprawidłowy format)."""
