@@ -11,3 +11,4 @@ Notatki dla nas: https://docs.google.com/document/d/1cT3KJluERXtXvhFYnIyQ2GaIGEH
 
 cd wsb
 docker compose up --build
+frontend na http://192.168.1.197:3000
